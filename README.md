@@ -1,1 +1,4 @@
 # Siddu-
+The document authentication model verifies the authenticity of ID cards, passports, driver’s licenses, and digital identity tokens by analyzing images that include key elements such as barcodes, MRZs, and contactless chips. Input images must meet recommended specifications, including a resolution of at least 600 dpi, a glare score of 50 or greater, and a sharpness grade of 50 or higher. Supported file formats include BMP, PNG, TIFF, JPEG, JPEG XR, JPEG 2000, and HEIC. The model uses a database of over 3,400 document types for verification. Input documents must meet quality standards, with all essential elements clearly visible. Cropping should be minimized, and compression must adhere to established guidelines.
+
+Sensitivity settings—high, normal, or low—control the strictness of authentication. High sensitivity reduces the risk of fraud but may reject more genuine documents, while low sensitivity improves acceptance rates but increases fraud risk. 
