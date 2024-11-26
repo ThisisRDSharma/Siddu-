@@ -7,3 +7,4 @@ Direct Correlation Between Image Quality and Verification Accuracy: The accuracy
 Failure or Compromise in the Verification Process: Without a clear, well-lit, and properly aligned ID image, the verification process cannot be completed successfully, compromising both the user experience and security. A reasonable image quality from Acuant is essential for iProov to function properly and accurately verify the applicant's identity through the selfie comparison.
 
 Impact on Customer Experience: If Acuant’s ID scanning process results in low-quality images, legitimate users may be unable to complete the onboarding process or may face unnecessary rejections, leading to customer frustration and potential drop-offs from the onboarding flow.
+Impact of Acuant Limitations on iProov's Performance
