@@ -8,3 +8,17 @@ Failure or Compromise in the Verification Process: Without a clear, well-lit, an
 
 Impact on Customer Experience: If Acuant’s ID scanning process results in low-quality images, legitimate users may be unable to complete the onboarding process or may face unnecessary rejections, leading to customer frustration and potential drop-offs from the onboarding flow.
 Impact of Acuant Limitations on iProov's Performance
+Data Privacy Regulations Compliance:
+
+General Data Protection Regulation (GDPR): iProov complies with EU Regulation 2016/679 on data protection and privacy, ensuring that personal data is processed securely and in compliance with user consent and rights to access, rectification, and deletion.
+UK Data Protection Act 2018: iProov adheres to the UK’s Data Protection Act, ensuring personal data is handled in accordance with UK-specific privacy laws, including data retention and security requirements.
+Bank Secrecy Act (BSA): iProov is designed to comply with the Bank Secrecy Act (BSA) for anti-money laundering (AML) and know-your-customer (KYC) regulations, which is crucial for financial institutions to maintain accurate records and prevent money laundering.
+Industry Standards and Certifications:
+
+National Security Standards: iProov has been tested to meet national security standards by UK Home Office, Singapore Government, Australian Government, and the U.S. Department of Homeland Security, ensuring the model adheres to stringent government-level security and identity verification protocols.
+eIDAS (EU Regulation): iProov complies with the eIDAS Regulation (EN 319 401), which governs electronic identification and trust services across the EU. The model also holds Modular Certifications for eSignature to the qualified level and eID Assurance High. Due to annual eIDAS audits, iProov also conforms to AMLD5 Article 24(1)(d) for identity verification in financial services.
+ISO/IEC 30107-3: iProov conforms to ISO/IEC 30107-3, which defines standards for biometric liveness detection, ensuring the system is robust against presentation attacks. It has been tested by iBeta to Level 1 and Level 2 to validate its resistance to spoofing attempts.
+ISO/IEC 19794-5:2006: iProov complies with ISO/IEC 19794-5:2006, which specifies performance testing for biometric verification systems. The model has undergone audits by the UK National Physical Laboratory to ensure compliance with international biometric standards.
+WCAG 2.1 AA and Section 508: iProov meets WCAG 2.1 AA accessibility standards, ensuring the model is accessible to users with disabilities. It also complies with Section 508 of the U.S. Rehabilitation Act, which mandates that electronic and information technology is accessible to people with disabilities.
+IRAP and IP3 (Australia): iProov is certified to comply with IRAP (Information Security Registered Assessors Program) and meets IP3 (Identity Proofing Level 3) requirements for identity verification in Australia.
+ISO/IEC 27001:2013: iProov is certified to ISO/IEC 27001:2013, demonstrating its commitment to Information Security Management Systems (ISMS). This certification ensures that iProov follows best practices for managing and securing sensitive data, critical to maintaining user privacy and security.
