@@ -1,4 +1,13 @@
 # Siddu-
-The imagery data used for active threat management in iProov’s system is securely accessed and processed through various devices, including Android, iOS, and Web platforms. Data from these devices is captured during biometric authentication sessions, where users’ facial images are processed for identity verification. To access the imagery data securely, users connect via a Virtual Private Network (VPN), protected by a client certificate specific to the user and their device, along with username and password credentials and two-factor authentication (2FA) for added security. Once the connection is established, logs of all accessed imagery are securely collected and stored, ensuring compliance and providing an auditable trail for accountability.
+The data sources used for model development in iProov’s system can be summarized as follows:
+Digital Banking Onboarding Data
+This data comes from customers who onboarded through the digital banking platform. As of March 31, 2024, there were 49,103 customers with active accounts who were digitally onboarded, specifically for consumer deposit accounts. This data serves as the foundation for the initial customer verification process and transaction monitoring.
 
-For data extraction and transformation, iProov employs deep learning techniques, specifically Convolutional Neural Networks (CNNs), to process the captured facial images. CNNs are used to extract multidimensional features related to the user's facial behavior and contextual data, allowing the system to evaluate the authenticity and intent behind each transaction.
+Alerts Data
+Alerts data is collected from the system to monitor the performance of the iProov technology and ensure reliable operation. This data helps identify any issues with the technology, such as downtime or service availability problems, and is critical for maintaining the overall functionality and security of the system. Importantly, this data does not include any personal or identifiable information (PII) about individual users.
+
+Transaction Metadata
+Metadata is captured during the processing of transactions. This data is non-personal and non-sensitive, and it is used solely to monitor and improve the performance of the iProov technology. Transaction metadata includes details like transaction timing, system responsiveness, and performance across different devices, without linking back to individual users.
+
+Imagery Data
+Imagery data is used primarily for active threat management. Facial images captured during user authentication (e.g., via biometric verification) are processed to identify potential security threats. In most cases, imagery data is not accessed unless a transaction is flagged as suspicious by the iProov Security Operations Centre (SOC). When flagged, the images are manually reviewed, and if deemed part of a novel or advanced attack, they are escalated for further analysis. This data is used to continuously improve the system’s ability to detect fraudulent or suspicious activity and respond to emerging biometric threats.
