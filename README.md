@@ -23,3 +23,4 @@ Facial Behavior: This includes key features like eye movement, blink patterns, a
 Color Reflection Data: During the authentication process, the system illuminates the face with a sequence of colors. The reflection of light from the skin during this process is an important explanatory variable. The way light reflects from the user's skin confirms liveliness and ensures the presence of a real human, not a spoofed attempt using a photo or video.
 
 Contextual Information: This includes details like device metadata (e.g., device type, operating system) and session history, which provide additional layers of context around the authentication attempt, helping to verify the legitimacy of the session.
+The response variable in iProov's model is the alert system that indicates the performance and outcome of the biometric verification process.
