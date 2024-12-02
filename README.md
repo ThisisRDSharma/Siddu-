@@ -2,3 +2,16 @@
  imagery flagged as high-risk represents an extremely small proportion of the total transactions, estimated to be 0.05% of the imagery processed through the platform. This limitation means that the data available for detecting and analyzing advanced or novel biometric attacks is significantly limited. Given the rarity of these high-risk incidents, there is a restricted dataset for training models and improving detection mechanisms for these sophisticated threats.
 The development data used by iProov is highly relevant to its core modeling objectives of ensuring accurate biometric authentication and robust security threat detection. The metadata, which includes data like biometric test results, device information, and anti-spoofing test results, is vital for training and optimizing biometric models. This data enables the system to perform well across different devices and environmental conditions, ensuring the technology's accuracy and reliability. Imagery data, particularly high-risk imagery flagged during suspicious transactions, plays a crucial role in improving the model’s ability to detect novel biometric attack patterns and adapt to advanced spoofing attempts. These images are essential for training models to handle emerging security threats effectively. Additionally, alerts, which provide real-time data on system performance and security, are used to identify operational issues and potential vulnerabilities, ensuring that the models remain accurate and resilient. By continuously leveraging this development data, iProov can refine its authentication models, improving both security and user experience while adapting to evolving biometric threats.
 
+To ensure the accuracy and security of the iProov authentication process, only the following formats are supported for image uploads:
+
+PNG
+JPEG
+JP2 (JPEG 2000)
+All other formats will be excluded from processing.
+
+Additionally, images must meet the following requirements to be considered valid:
+
+Maximum file size: 2 MB
+Image Conformance: The image must comply with the ISO/IEC 19794 standard for information technology, which ensures proper alignment, quality, and compliance with biometric guidelines.
+Eye Distance: The minimum distance between the subject's eyes must be 85 pixels in the image. This is essential for ensuring proper facial recognition accuracy.
+Any data or images that do not meet these specifications will be automatically excluded from processing by the iProov model.
