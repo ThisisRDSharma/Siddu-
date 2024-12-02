@@ -24,3 +24,4 @@ Color Reflection Data: During the authentication process, the system illuminates
 
 Contextual Information: This includes details like device metadata (e.g., device type, operating system) and session history, which provide additional layers of context around the authentication attempt, helping to verify the legitimacy of the session.
 The response variable in iProov's model is the alert system that indicates the performance and outcome of the biometric verification process.
+he response variable in iProov's model is the alert system that indicates the performance and outcome of the biometric verification process. 
