@@ -26,3 +26,4 @@ Contextual Information: This includes details like device metadata (e.g., device
 The response variable in iProov's model is the alert system that indicates the performance and outcome of the biometric verification process.
 he response variable in iProov's model is the alert system that indicates the performance and outcome of the biometric verification process. 
 the two main types of explanatory variables for your iProov model are metadata and imagery, 
+Metadata refers to the contextual information surrounding the authentication attempt. This data helps assess the authenticity of the session and provides insights into the environment in which the verification is taking place.
