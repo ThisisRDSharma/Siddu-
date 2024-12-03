@@ -57,3 +57,14 @@ While specific information regarding the frequency of monitoring activities is n
 
 While specific details on monitoring frequency are not available, continuous monitoring is recommended for the Iproov model. This ensures ongoing performance, accuracy, and security, detecting issues such as spoofing attempts or data quality concerns in real time
 There is insufficient information regarding the specific data quality treatments applied by iProov to address missing or erroneous values in the collected data. However, based on the available data types—alerts data, transaction metadata, and imagery data—it can be inferred that iProov likely uses automated validation and system checks to maintain data integrity. Given that the data is primarily used for performance monitoring and security purposes, issues with missing or erroneous values may be minimal, with poor-quality imagery or erroneous metadata likely excluded from analysis. The absence of detailed treatment protocols suggests that iProov’s focus is on ensuring the system’s evolution and security, where data errors may be handled dynamically during processing or excluded without significant impact on system performance.
+
+
+
+
+It is assumed that the raw biometric data (facial images) will meet the required quality standards, including sufficient resolution, proper alignment, and proper lighting conditions. Images should be clear and unambiguous for accurate facial recognition.
+
+
+The data provided will comply with relevant international standards, including ISO 30107-3 for presentation attack detection and ISO 19795 for biometric data interchange, ensuring the system operates in compliance with best practices and regulatory requirements.
+
+The facial images must be provided in one of the following formats: PNG, JPEG, or JP2. All images should adhere to the ISO/IEC 19794 standard for biometric data interchange formats, ensuring compatibility and consistency in data representation.
+
