@@ -23,4 +23,10 @@ Sampling Approach:
 The sampling was conducted in such a way that the total number of samples for each demographic group was equal across each device and for each month. This helped mitigate any biases that might arise from over-representation of any particular device or demographic group.
 Where the data was sparse and it was not feasible to sample exclusively from a few devices, equal samples from each demographic group were still ensured, even if the samples came from a broader range of devices.
 This methodology was aimed at reconciling the data by ensuring that it was representative, balanced, and consistent across devices and demographic groups over the three-month period. The reconciliation process helped ensure that the samples used for analysis were aligned with the expected standards and that the resulting dataset was complete and reliable.
+The approval process for Iproov’s biometric solution involves rigorous evaluations and certifications to ensure security, robustness, and compliance with industry standards. Iproov is the first organization to achieve comprehensive certification for remote verification from the FIDO Alliance, confirming the solution's robustness, inclusivity, and interoperability. This certification ensures Iproov’s technology provides unmatched defense against presentation attacks and deepfake threats throughout the entire identity lifecycle.
 
+The dynamic liveliness solution was independently evaluated and confirmed as compliant with ISO 19795 and ISO 30107 standards, validating its excellence in face matching and liveliness detection.
+
+Testing was conducted by the accredited laboratory Ingenium Biometrics, which confirmed the system's ability to thwart all types of presentation attacks, including photo masks, face morphs, videos, and presented deepfakes.
+
+Iproov’s solution has been tested through external evaluations by iBeta, accredited by NIST under the NVLAP program, and internal audits by the National Physical Laboratory, ensuring conformity to ISO 30107:3 standards.
