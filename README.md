@@ -67,4 +67,7 @@ It is assumed that the raw biometric data (facial images) will meet the required
 The data provided will comply with relevant international standards, including ISO 30107-3 for presentation attack detection and ISO 19795 for biometric data interchange, ensuring the system operates in compliance with best practices and regulatory requirements.
 
 The facial images must be provided in one of the following formats: PNG, JPEG, or JP2. All images should adhere to the ISO/IEC 19794 standard for biometric data interchange formats, ensuring compatibility and consistency in data representation.
+Facial images must be provided in PNG, JPEG, or JP2 formats, in compliance with the ISO/IEC 19794 standard for biometric data interchange. This ensures compatibility and consistency in data representation, enabling seamless integration across different systems and devices. 
 
+The assumption is critical because adhering to this standard guarantees that the biometric data is captured in a uniform format, reducing the risk of data misinterpretation and ensuring accurate facial recognition.
+By following the standard, the system maintains interoperability, data integrity, and accuracy, all of which are essential for reliable and secure biometric verification.
