@@ -43,3 +43,7 @@ Moreover, Iproov’s solution has been accredited by Ingenium Biometrics, an ind
 Limited Data for Detection of Advanced or Novel Biometric Attacks
 The data for detecting advanced or novel biometric attacks is extremely limited, as high-risk imagery accounts for just 0.05% of all processed transactions. This scarcity restricts the ability to train models and improve detection mechanisms for sophisticated threats.
  The scarcity of high-risk data makes it challenging to develop highly accurate detection models for advanced or novel biometric attacks
+
+
+
+Due to the limited dataset of high-risk biometric incidents, continuous monitoring should focus on real-time detection, alerting for any anomalies or unusual patterns in the biometric data. 
