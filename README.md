@@ -47,3 +47,4 @@ The data for detecting advanced or novel biometric attacks is extremely limited,
 
 
 Due to the limited dataset of high-risk biometric incidents, continuous monitoring should focus on real-time detection, alerting for any anomalies or unusual patterns in the biometric data. 
+While specific information regarding the frequency of monitoring activities is not available, continuous monitoring is highly recommended for biometric solutions like Iproov’s. Given the dynamic nature of biometric data and the ever-evolving threat landscape, it is crucial to ensure that the system is regularly monitored to maintain its accuracy, security, and reliability.
