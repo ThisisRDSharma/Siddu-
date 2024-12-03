@@ -18,6 +18,10 @@ Device Selection:
 
 For each breakdown, the most common devices across the three months were selected. This ensured that the data was consistent and aligned with the devices most frequently used.
 In cases where the available data was insufficient to limit sampling to only the most common devices, all devices were included, while still maintaining balanced representation across demographic groups.
+
+
+
+While specific details on monitoring frequency are not available, continuous monitoring is recommended for the Iproov model. This ensures ongoing performance, accuracy, and security, detecting issues such as spoofing attempts or data quality concerns in real time.
 Sampling Approach:
 
 The sampling was conducted in such a way that the total number of samples for each demographic group was equal across each device and for each month. This helped mitigate any biases that might arise from over-representation of any particular device or demographic group.
