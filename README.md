@@ -73,3 +73,27 @@ The assumption is critical because adhering to this standard guarantees that the
 By following the standard, the system maintains interoperability, data integrity, and accuracy, all of which are essential for reliable and secure biometric verification.
 Model execution monitoring ensures robust performance and reliability throughout deployment. Security tests, including computer vision (CV) and machine learning (ML) techniques, are continuously evaluated and added based on their accuracy and relevance. New models are first deployed in beta mode, where they are tested on larger, unseen datasets for 2–4 weeks. During this phase, the models are monitored weekly, and only those achieving a false rejection rate (FRR) of 2% or less and a false acceptance rate (FAR) of 5% or less are promoted to production. Models that fail these benchmarks are refined or removed. Over time, newer models may replace older ones, with deprecated models clearly identified for transparency. Each model undergoes rigorous certification by the ML team, and its performance is continuously evaluated in production to meet target goals, ensuring accuracy and reliability in tampering detection.
 
+The handoff process involves the following steps:
+
+Generate User Token:
+
+Accuant generates a unique token for each user. This token serves as a secure identifier for the user and is used throughout the verification process.
+Enroll ID Document Image:
+
+Accuant captures and processes the image from the user's ID document. This image is associated with the token, ensuring it is linked to the correct user profile. The image is then prepared for comparison in the next steps.
+Initiate iProov SDK:
+
+Accuant passes the token to iProov to initiate the identity verification process. This token acts as the key that links the user's identity and the enrolled image for subsequent selfie capture and verification.
+Selfie Capture via iProov SDK:
+
+The user is prompted to take a selfie using the iProov SDK. The SDK guides the user to capture their selfie, which is essential for validating the user's presence (liveness detection) and matching the face with the enrolled image.
+Face Match and Liveness Validation:
+
+iProov performs the validation by comparing the captured selfie to the enrolled ID image. It checks for liveness to ensure the selfie is from a live user and compares the face match to verify that the user in the selfie is the same person as the one in the ID image.
+Return Results to iProov:
+
+The results of the liveness detection and face match are processed within iProov but do not return to Accuant. iProov only processes the selfie and enrolled image and provides feedback, such as whether the selfie is a valid liveness image and whether the faces match.
+Completion of Process:
+
+The process ends when iProov has validated the identity based on the selfie and enrolled image, but no results or data are sent back to Accuant. The identity verification is complete on iProov’s side.
+
