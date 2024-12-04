@@ -97,3 +97,21 @@ Completion of Process:
 
 The process ends when iProov has validated the identity based on the selfie and enrolled image, but no results or data are sent back to Accuant. The identity verification is complete on iProov’s side.
 
+
+
+
+Generate User Token:
+
+Accuant generates a unique token for each user. This token serves as a secure identifier throughout the process, ensuring the identity is consistently tied to the right user.
+Enroll Image from ID Document:
+
+Accuant captures the image from the user's ID document and enrolls it into the system. The enrolled image is then associated with the generated token, creating a reference image for later comparison during the verification process.
+Initiate iProov SDK:
+
+Accuant passes the generated token and enrolled image to iProov, which uses this data to initiate the identity verification process. The token ensures that iProov knows which user's data to work with.
+Guide User to Take Selfie:
+
+The user is prompted through the iProov SDK to take a selfie. This is an essential step for liveness detection (confirming the selfie is a live image) and face matching (comparing the selfie to the enrolled image from the ID document).
+Face Match and Liveness Validation:
+
+iProov processes the selfie and compares it to the enrolled image from Accuant. The SDK checks whether the selfie is a live image and whether the face matches the enrolled ID image.
