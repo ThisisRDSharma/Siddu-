@@ -135,7 +135,7 @@ Business Continuity Reports
 
 Outline recovery plans, risk assessments, and strategies to maintain critical operations during disruptions.
 
-
+The GBG Scan Testing and Methodology reports discuss the sensitivity tests performed to evaluate how the model behaves under different conditions and assess its performance in varying scenarios.
 
 
 
