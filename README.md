@@ -115,3 +115,32 @@ The user is prompted through the iProov SDK to take a selfie. This is an essenti
 Face Match and Liveness Validation:
 
 iProov processes the selfie and compares it to the enrolled image from Accuant. The SDK checks whether the selfie is a live image and whether the face matches the enrolled ID image.
+
+
+
+
+Methodology Reports
+
+Explain the model’s workflow, deployment process, and sensitivity tests.
+Metrics Reports
+
+Track model performance using metrics like ROC-AUC, FAR, FRR, and precision/recall.
+Web Integration Reports
+
+Cover input data requirements, REST APIs, Web SDKs, and tools like GBG Scan for seamless Assure ID integration.
+Testing Reports
+
+Document sensitivity, functional, and performance tests for system and model reliability.
+Business Continuity Reports
+
+Outline recovery plans, risk assessments, and strategies to maintain critical operations during disruptions.
+
+
+
+
+
+
+
+
+
+
