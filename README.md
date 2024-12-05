@@ -39,7 +39,7 @@ Iproov’s model approval process involves comprehensive evaluations to ensure t
 The certification follows a rigorous independent evaluation of Iproov’s dynamic liveliness solution, confirming its excellence in face matching and liveliness detection, compliant with ISO 19795 and ISO 30107 standards. The solution has been validated through both external and internal testing. External testing was conducted by iBeta, an accredited laboratory certified by NIST under the NVLAP program. iBeta’s testing procedures for ISO 30107-3 presentation attack detection standards were audited by their accrediting body, and in April 2018, iBeta’s scope of accreditation was extended to include conformance testing to ISO 30107-3. Additionally, Iproov’s internal methodology has been audited by the National Physical Laboratory (NPL), confirming ongoing compliance with ISO 30107:3.
 
 Moreover, Iproov’s solution has been accredited by Ingenium Biometrics, an independent laboratory, validating its resistance to all types of presentation attacks, including photo masks, face morphs, videos, and presented deepfakes. This combination of independent certifications and rigorous testing guarantees that Iproov’s biometric solution provides secure, accurate, and reliable verification, making it a trusted choice for real-world, high-security applications worldwide.
-
+he GBG Scan Testing and Methodology reports discuss the sensitivity tests performed to evaluate how the model behaves under different conditions and assess its performance in varying scenarios.
 
 
 
