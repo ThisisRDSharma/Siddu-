@@ -157,5 +157,7 @@ Developers can interface directly with AssureID Connect REST APIs to integrate a
 
 
 
+In this process, Acuant functions as the upstream model, responsible for scanning applicants' IDs to detect signs of alteration or illegitimacy. Using advanced algorithms, Acuant ensures that only valid and authentic IDs proceed further in the verification workflow. The scanned data, along with validation insights, serves as input for the downstream model.
 
+iProov, the downstream model, leverages the ID scans and validation data provided by Acuant to verify the applicant's identity. By cross-referencing the ID information with live facial scans or submitted ID photos, iProov confirms that the person presenting the ID matches the one in the document.
 
