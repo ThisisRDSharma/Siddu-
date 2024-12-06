@@ -138,7 +138,22 @@ Outline recovery plans, risk assessments, and strategies to maintain critical op
 The GBG Scan Testing and Methodology reports discuss the sensitivity tests performed to evaluate how the model behaves under different conditions and assess its performance in varying scenarios.
 
 
+Model Access and Security
+Acuant enforces strict security measures to ensure the integrity of its model access through the following mechanisms:
 
+Authentication:
+
+The AssureID Connect Web Services use HTTP Basic Authentication (RFC 2617).
+If credentials are missing or incorrect, the server returns a 401 Unauthorized status along with a WWW-Authenticate header. The client must resend the request with credentials (username:password) encoded in Base64 and placed in the Authorization header.
+Credential Transmission:
+
+Since Base64 encoding does not encrypt credentials, the resources within the AssureID Connect web services are accessible only via HTTPS, which encrypts the entire communication channel. This ensures that credentials and data are protected during transmission.
+Access Control:
+
+Access is restricted to authenticated users, ensuring only authorized systems can interact with the web services.
+Secure Developer Integration:
+
+Developers can interface directly with AssureID Connect REST APIs to integrate authentication and parsing processes into their systems while maintaining secure access.
 
 
 
