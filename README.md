@@ -45,3 +45,17 @@ Quarterly Aggregate Metrics: Aggregated across all three months of the quarter. 
 Transformed Y-Axis: For ease of interpretation, the y-axis is transformed. The horizontal line at y=0 represents the mean pass rate for the entire dataset, with the points/circles and confidence intervals in the figure showing the percentage difference from this mean.
 
 Monthly Metrics: Metrics will also be calculated for each month individually to observe variations in performance over time.
+
+
+
+
+
+5. Data Analysis
+
+Quarterly and Monthly Insights: Examine metrics to identify any significant changes over time, focusing on trends in pass rates across different demographic groups.
+
+Group Comparisons: Evaluate performance across demographic groups (age, gender, ethnicity) to detect potential biases or disparities.
+
+Fairness Validation: Ensure no demographic group is disproportionately impacted by analyzing pass rates and their confidence intervals. The goal is to verify that the system operates equitably across all groups.
+
+
