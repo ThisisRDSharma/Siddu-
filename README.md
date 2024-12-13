@@ -59,3 +59,16 @@ Group Comparisons: Evaluate performance across demographic groups (age, gender, 
 Fairness Validation: Ensure no demographic group is disproportionately impacted by analyzing pass rates and their confidence intervals. The goal is to verify that the system operates equitably across all groups.
 
 
+
+Dynamic Authentication(Ios only)
+A small performance discrepancy has been observed in the 18-30 age group for dynamic authentication on both iOS and Android devices. This discrepancy was not present in previous monitoring periods. The difference appears to be due to an increased number of users in this age group attempting authentication in bright sunlight conditions, which tends to lower the success rate. This environmental factor seems to be influencing performance for this specific demographic.
+
+Dynamic Authentication (Web Only)
+For the 60+ age group on web authentication, the pass rate confidence intervals do not overlap with any of the other age groups, indicating a notable difference in performance. Since normalization by device manufacturer is not possible for web authentication, variations in device quality—if correlated with demographics—could affect performance. The slightly reduced performance for this age group may be linked to the diversity of device types and quality used within this group. This effect was not observed in previous reports, but it is important to note that this is the first report where performance by age has been further differentiated by platform.
+
+Dynamic Authentication (Android Only):
+Although the pass rate differences between ethnicities for Android devices are not large, the confidence intervals show relatively small or no overlap at all. This could be due to significant differences in the distribution of phone models used across different regions, even though the sampling was restricted to the most prevalent Android manufacturers. These regional variations in device models may be contributing to the observed performance differences.
+
+
+
+
