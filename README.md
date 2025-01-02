@@ -1,9 +1,14 @@
-Bad Account (1): An account that is involuntarily closed (forced closure) due to abuse or suspected fraud within one year of account opening at the institution.
-Good Account (0): An account that remains open and does not face a forced closure within one year of maturity.
-The variable binning process involves defining bins by selecting the minimum and maximum values for each attribute to ensure that each bin demonstrates either a higher or lower bad rate relative to others. Variables are excluded based on business rules, such as legal or sensitive data restrictions, or if they do not significantly contribute to the model's performance. Segmentation is performed using statistical techniques like chi-square tests and decision tree methods to identify optimal bin ranges. Continuous variables are transformed into discrete categories (bins) with clear distinctions in bad rates, ensuring meaningful separation and improved predictiveness. The performance of these binned variables is assessed iteratively to align with the model's objectives and enhance its accuracy.
+Overview of Model Development Data
+The model is designed to support the opening of demand deposit accounts (DDA) for customers with Social Security Numbers (SSNs) through all available deposit account opening channels, including digital onboarding platforms and in-branch processes.
 
+Data Sources and Coverage:
+Internal Data: Debit bureau data, sourced from internal systems.
+External Data: Public record data from external sources.
+Optional Feature: The model has the flexibility to incorporate external credit bureau attributes and credit scores to assess potential customer behavioral risk.
+Data Characteristics:
+Time Periods: Both the internal and external datasets cover a historical period of 3 to 5 years, consistent with retention policies.
+Update Frequency: The datasets are updated daily to ensure the model operates with the most current and accurate information.
+Consistency: The data utilized is aligned with organizational data governance and compliance standards.
+Scope:
+The model development data provides comprehensive coverage of customer attributes relevant to the demand deposit account opening process across all channels. The optional feature of leveraging external credit bureau data further enhances the model's ability to evaluate customer behavioral risk, contributing to more informed decision-making.
 
-
-The scorecard methodology transforms continuous attributes into categorical variables through binning. Bins are created by selecting minimum and maximum attribute values such that each bin exhibits a higher or lower bad rate relative to others. Statistical methods, including chi-square tests and decision tree software, are used to determine optimal bin ranges.
-
-For variable reduction, internal macros and decision trees are employed to remove non-predictive variables from the dataset. The remaining variables are binned and run through a stepwise logistic regression multiple times. Each iteration identifies the most significant variables, which are set aside before the next stepwise run. This iterative process ensures the inclusion of only the most predictive features, maximizing the model’s separation between "good" and "bad" accounts while handling non-linear relationships effectively.
