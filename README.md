@@ -9,6 +9,5 @@ To ensure reliability, the robustness of the final model was tested using severa
 
 The development sample typically consisted of hundreds of thousands of observations, including tens of thousands of "bad" accounts, to ensure it was fully representative of the intended model population. A large sample size is crucial not only to ensure representativeness but also to allow the model to identify and separate patterns between the two values of the dependent variable (e.g., "good" vs. "bad" accounts).
 
-
-
+All variables were binned for analysis, and no other transformations were performed.
 |
