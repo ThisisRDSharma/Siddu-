@@ -11,3 +11,12 @@ The development sample typically consisted of hundreds of thousands of observati
 
 All variables were binned for analysis, and no other transformations were performed.
 |
+The dependent variable for this model is whether the consumer account was reported as charged off due to abuse or suspected fraud within 12 months of the inquiry, with the reported closure originating from the same institution that conducted the inquiry.
+
+A critical aspect of any model-building process is the proper classification of accounts into good, bad, and indeterminate categories. The performance definitions for this project are as follows:
+
+Bad Account: An account that experienced an involuntary (forced) closure due to abuse or suspected fraud within one year of account opening at the inquiring institution.
+Good Account: An account with no forced closure within one year of the inquiry.
+Indeterminate Account: Any inquiry that cannot be classified definitively as good or bad.
+This classification ensures clear, consistent definitions for the performance variable, which are essential for accurate model development and evaluation.
+
