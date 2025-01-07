@@ -84,3 +84,9 @@ To enhance predictive accuracy, the model likely incorporates derived features, 
 Aggregated Risk Scores: Combined metrics summarizing risk from debit bureau data, public records, and optional credit attributes.
 Behavioral Trends: Time-series patterns of inquiries, returned checks, and credit utilization.
 Fraud Risk Indicators: Flags for high-risk behaviors, such as repeated account closures or unusual check order patterns.
+
+
+
+
+Inclusion of Declined Records:
+Including declined records (rejected applicants) in the risk model can lead to underestimating risk. This is because high-risk consumers are more likely to be rejected, and including them in the dataset makes the model potentially misrepresent the true risk by overestimating the number of low-risk individuals. The model might then fail to accurately assess the risk of consumers who were actually declined for being high-risk.
