@@ -95,3 +95,11 @@ Including declined records (rejected applicants) in the risk model can lead to u
 
 
 When an SSN is not provided or validated, the model may process the inquiry with limited data, which can impact the accuracy and completeness of the consumer's history. Transactions without an SSN may lack key information, leading to incomplete or inaccurate data, which could affect the automated decision-making process and reduce the reliability of the risk assessment.
+
+The data retention period for debit bureau data sources, such as [list data sources], is predefined for each type of information to ensure data accuracy, compliance with regulations, and support for reliable risk assessments."
+
+
+
+
+
+
