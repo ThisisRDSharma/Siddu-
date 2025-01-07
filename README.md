@@ -99,7 +99,7 @@ When an SSN is not provided or validated, the model may process the inquiry with
 The data retention period for debit bureau data sources, such as [list data sources], is predefined for each type of information to ensure data accuracy, compliance with regulations, and support for reliable risk assessments."
 
 
-
+Data extraction was performed using proprietary consumer search algorithms designed to retrieve relevant information efficiently. For data transformation, binning techniques were applied to organize and simplify data for model development. The process leveraged industry-standard decision tree software and chi-square tests to create optimal bins
 
 
 
