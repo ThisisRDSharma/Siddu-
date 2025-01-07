@@ -101,5 +101,12 @@ The data retention period for debit bureau data sources, such as [list data sour
 
 Data extraction was performed using proprietary consumer search algorithms designed to retrieve relevant information efficiently. For data transformation, binning techniques were applied to organize and simplify data for model development. The process leveraged industry-standard decision tree software and chi-square tests to create optimal bins
 
+Modeling Approach:
+The modeling technique used is logistic regression, which predicts a binary outcome by creating a logit-transformed, linear function to rank-order risk. The development process involves transforming continuous attributes into categorical variables through binning, enabling their use in scorecards.
+
+After thorough variable review, a stepwise logistic regression procedure is employed to evaluate and rank independent variables based on their statistical significance in predicting the dependent variable. The stepwise method uses the maximum likelihood estimation (MLE) function to determine the hierarchy of variables. The most significant variables identified through this process are then used to generate candidate models.
+
+The final QualiFile model consists of four scorecards, developed to account for differences in data availability and behavioral risk. The dataset is segmented into four groups based on available data and the combination of candidate variables, enabling tailored model development for each group and enhancing the model's overall predictive power.
+
 
 
