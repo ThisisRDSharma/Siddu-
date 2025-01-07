@@ -1,22 +1,35 @@
-Indeterminate cases were removed from the development sample to ensure the quality and consistency of the dataset, enabling accurate and unbiased model development.
-To create the model development and testing datasets, a robust statistical sampling approach was employed. The total development sample was split into two parts: an estimation sample and a validation sample. This approach ensures that the model is not overfitted and is capable of performing well on an entirely separate set of accounts.
+Explanatory Variables Used in the Model Development for Qualifile
+The Qualifile model, developed by ChexSystems, leverages a robust dataset from customer-provided information, ChexSystems’ proprietary debit bureau databases, and public records. Based on the nature of these data sources, the model likely incorporates a diverse range of variables to assess financial behavior, stability, and potential risk effectively.
 
-The estimation sample was used to fit the model, while the validation sample served to test the model's performance and confirm its robustness. Specifically:
+1. Customer Data Inputs
+Customer-provided data serves as the foundation for identification and linking records across datasets. Potential variables include:
 
-Development Sample: Comprised 60% of the scorecard inquiries and was used to build the model.
-Validation Sample: Comprised the remaining 40% of the scorecard inquiries and was used to validate the model's performance.
-To ensure reliability, the robustness of the final model was tested using several different hold-out samples. Once confirmed, the final model was applied to the entire scorecard population.
+Name: Used to ensure accurate matching with external data sources.
+Address: May indicate geographical risk and the stability of residence.
+Social Security Number (SSN): Plays a critical role in identity verification and linking with public records.
+2. Variables from ChexSystems Open Inquiry File (DDA and Non-DDA)
+This file tracks inquiries related to demand deposit accounts (DDA) and other financial products. Potential explanatory variables include:
 
-The development sample typically consisted of hundreds of thousands of observations, including tens of thousands of "bad" accounts, to ensure it was fully representative of the intended model population. A large sample size is crucial not only to ensure representativeness but also to allow the model to identify and separate patterns between the two values of the dependent variable (e.g., "good" vs. "bad" accounts).
+Inquiry Frequency: Reflects the volume of recent inquiries, which could indicate aggressive account-seeking behavior.
+Inquiry Recency: Tracks the time since the last inquiry, highlighting recent financial activity.
+Patterns of Multiple Applications: Identifies clusters of inquiries within a short timeframe, which may signal elevated financial risk.
+Historical Outcomes: Provides information on the success or failure of past applications and their connection to account performance.
+3. Variables from Check Printing Order History File
+Check printing activity offers insights into account behavior. Likely variables include:
 
-All variables were binned for analysis, and no other transformations were performed.
-|
-The dependent variable for this model is whether the consumer account was reported as charged off due to abuse or suspected fraud within 12 months of the inquiry, with the reported closure originating from the same institution that conducted the inquiry.
+Frequency of Orders: Regular check orders may indicate active account usage, while irregular patterns could suggest dormant or low-usage accounts.
+Order Volume Spikes: Unusual surges in check orders may point to fraud or unusual account activity.
+Order Cancellations: Patterns of canceled orders could indicate inconsistencies in account behavior.
+4. Variables from Returned Checks File
+This file contains records of bounced checks and accounts closed "for cause" by financial institutions and retailers. Likely variables include:
 
-A critical aspect of any model-building process is the proper classification of accounts into good, bad, and indeterminate categories. The performance definitions for this project are as follows:
+Number of Returned Checks: A higher count may indicate financial instability.
+Recency of Returned Checks: Helps identify whether financial difficulties are ongoing or historical.
+Aggregate Value of Returned Checks: Tracks the total monetary value of bounced checks, providing insight into the severity of financial strain.
+Reasons for Account Closures: Offers critical information about closures due to fraud, unpaid overdrafts, or other causes.
+5. Variables from Public Records
+Public records enrich the dataset by adding financial and legal context. Potential variables include:
 
-Bad Account: An account that experienced an involuntary (forced) closure due to abuse or suspected fraud within one year of account opening at the inquiring institution.
-Good Account: An account with no forced closure within one year of the inquiry.
-Indeterminate Account: Any inquiry that cannot be classified definitively as good or bad.
-This classification ensures clear, consistent definitions for the performance variable, which are essential for accurate model development and evaluation.
-
+Bankruptcy Filings: The presence and recency of bankruptcy filings as an indicator of financial risk.
+Liens and Judgments: Records of financial obligations or legal disputes that might reflect financial distress.
+Address Change Frequency: Patterns of frequent address changes may signal instability or heightened financial risk.
