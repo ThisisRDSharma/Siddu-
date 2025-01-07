@@ -90,3 +90,8 @@ Fraud Risk Indicators: Flags for high-risk behaviors, such as repeated account c
 
 Inclusion of Declined Records:
 Including declined records (rejected applicants) in the risk model can lead to underestimating risk. This is because high-risk consumers are more likely to be rejected, and including them in the dataset makes the model potentially misrepresent the true risk by overestimating the number of low-risk individuals. The model might then fail to accurately assess the risk of consumers who were actually declined for being high-risk.
+
+
+
+
+When an SSN is not provided or validated, the model may process the inquiry with limited data, which can impact the accuracy and completeness of the consumer's history. Transactions without an SSN may lack key information, leading to incomplete or inaccurate data, which could affect the automated decision-making process and reduce the reliability of the risk assessment.
