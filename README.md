@@ -1,31 +1,25 @@
-Model Settings and Parameters
-Model Settings:
-The model generates a score between 100 and 899 for applicants, but certain special cases result in exception scores being assigned. These exception scores reflect specific conditions handled by the model:
+Binary Dependent Variable
 
-9999: Missing or insufficient data for score calculation.
-9992: Policy rule decline prior to score calculation. This score is used when the institution has elected to decline an account based on a specific rule (e.g., prior fraud closures on file). In such cases, the application is rejected before the credit bureau is assessed, thus reducing costs for accounts that would ultimately be declined.
-9998: Deceased SSN. The applicant’s SSN matches an entry on the deceased SSN master list, and the application is not scored or processed further.
-Key Parameters:
+Assumption: Logistic regression assumes the dependent variable is binary (0 or 1). The logistic function transforms log-odds into a probability bounded between 0 and 1, which requires a binary dependent variable.
+Testing: During development, frequency distributions were analyzed to ensure the dependent variable was binary.
+Monitoring: Ongoing frequency distributions are reviewed to verify that the dependent variable remains binary in production.
+Probability of Event
 
-Score Range: The model generates scores ranging from 100 to 899. Scores above a certain threshold (e.g., 580 for risk-averse strategies) are accepted, and scores below are declined.
-Special Scores:
-9999: Missing or incomplete data.
-9992: Policy rule decline (before score calculation) based on predefined conditions (e.g., prior fraud closures).
-9998: SSN is flagged as deceased.
-Accept Thresholds: The client can configure the model’s accept thresholds (e.g., accept scores above 580 for a risk-averse strategy).
-Vendor Customizations:
+Assumption: Logistic regression estimates the probability of the dependent variable being equal to 1, as defined by the performance metric. The dependent variable must consistently represent the event (value of 1) within the targeted population.
+Testing: Frequency distributions were used during development to confirm that the dependent variable equaled 1 for the defined performance metric.
+Monitoring: Ongoing reviews ensure that the dependent variable remains 1 for the targeted population, with checks against the defined performance metric.
+Model Fit
 
-The model is not customized for individual clients, but it is flexible for clients to adjust decision thresholds and implement their own business rules.
-Clients can handle exception scores (9992, 9998, and 9999) as part of their custom decision-making process.
-The model supports integration with client systems, enabling the use of business rules (e.g., 9992 for policy rule declines) to automate decisioning.
-Client-Specific Customization Options:
+Assumption: The model must not overfit the development dataset to maintain stability and generalizability to new data. Overfitting would result in poor performance metrics on new datasets.
+Testing: Data samples were split into development (60%) and validation (40%) sets to ensure nearly identical performance metrics across both datasets.
+Monitoring: Independent validation samples from different time periods are analyzed to ensure consistent performance over time.
+Error Term
 
-Business Rules and Strategies: Clients can combine model scores with additional customer data (e.g., income, credit history) and create custom strategies tailored to their needs. Strategies can include risk-averse, risk-moderate, and risk-aggressive approaches, as well as the basic rules-only strategy.
-Handling Special Scores: Clients can set up their system to manage special scores based on business policies. For example:
-9992: Policy rule decline (e.g., prior fraud closures) can be implemented as a filtering mechanism before processing the credit bureau data, saving operational costs for accounts that are unlikely to be approved.
-9998: If the model returns a 9998 score (deceased SSN), clients can route these applications for further review or reject them outright.
-9999: Missing data cases can be flagged for additional data gathering or manual review.
+Assumption: Independent variables must not be derived from the dependent variable or future activities. This ensures that the model performs as expected in production without introducing bias or circular logic.
+Testing: Dates of dependent variable occurrences were compared with inquiry dates to confirm that events occurred after the inquiry.
+Monitoring: Ongoing comparisons of dependent variable occurrence dates and inquiry dates are conducted on additional testing and validation datasets.
+Linearity
 
-
-
-
+Assumption: Logistic regression assumes a linear relationship between independent variables and the log-odds (logit) of the dependent variable. Regression coefficients for independent variables have a linear impact on the logit of the dependent variable.
+Testing: During development, log-odds plots were created to confirm linear relationships between independent variables and the logit of the dependent variable.
+Monitoring: Continuous comparison of relationships between independent variables and the logit of the dependent variable is performed on additional testing and validation datasets.
