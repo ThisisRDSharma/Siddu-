@@ -1,3 +1,9 @@
+Modeling Approach: Logistic Regression
+The logistic regression methodology was selected for this model as it aligns with both industry best practices and academic recommendations for binary classification problems, particularly in credit risk modeling. According to Rezac & Rezac (2011), logistic regression offers an optimal balance between performance, interpretability, and ease of implementation, making it a preferred technique in risk modeling across financial institutions.
+
+
+
+
 Comparison with Alternative Techniques
 Neural Networks:
 While neural networks can model complex, non-linear relationships, they lack transparency, making them unsuitable for credit risk applications where interpretability is critical. Rezac & Rezac (2011) highlight that neural networks, while powerful, often fail to meet regulatory expectations for explainability.
