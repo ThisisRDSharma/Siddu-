@@ -1,53 +1,64 @@
-Model Weaknesses or Limitations
-Screened Applicants:
-The Qualifile Advantage model was developed using a "through-the-door" population. Populations where prior risk screening tools have been used may exhibit different score distributions, leading to variations in observed charge-off risk compared to development/validation samples.
-
-Variations in Population Risk:
-The model was developed and validated with an observed charge-off risk of approximately 13%. Financial institutions servicing populations with higher or lower risks may experience variations in score distributions. These variations necessitate careful alignment with institutional objectives.
-
-Associated Model Risks
-Screened Applicants:
-
-Risk of Misestimation: The model may misestimate the absolute charge-off risk for populations that differ from the development/validation sample.
-Potential Implementation Errors: Without proper evaluation, the model might be misapplied to populations it was not designed to handle.
-Variations in Population Risk:
-
-Risk of Misaligned Strategies: Differences in population risk could result in misaligned score interpretations and strategies if institutions fail to adjust for their specific population.
-Inaccurate Risk Segmentation: Score ranges might not appropriately capture the risk levels of populations with substantially different charge-off risks.
-Model Risk Mitigants
-Screened Applicants:
-
-Conduct a pilot test before full-scale implementation to assess score distributions and rank-ordering performance in screened populations.
-Adjust strategies based on observed differences in charge-off risk relative to development/validation data.
-Variations in Population Risk:
-
-Perform regular recalibrations and validations to ensure score ranges align with the institution’s risk appetite and objectives.
-Establish customized score thresholds and strategies tailored to the specific risk profile of the institution’s population.
-Use overlays or supplemental models to refine decisions for higher- or lower-risk populations.
-
-
-Assumption of Stability in Consumer Behavior and Economic Conditions:
-The model assumes that future consumer behavior and economic factors will be similar to historical patterns observed during model development. Significant changes in these factors may reduce the model's accuracy and reliability.
-
-Associated Model Risks
-Model Performance Degradation: If consumer behavior or economic conditions deviate significantly from the past, the model may produce inaccurate or unreliable results.
-Strategic Misalignment: Institutions relying on the model could make suboptimal decisions based on outdated assumptions.
-Model Risk Mitigants
-Regularly revalidate and recalibrate the model to ensure its assumptions and parameters remain aligned with current consumer behavior and economic conditions.
-Incorporate forward-looking indicators or stress-testing scenarios to anticipate potential changes in behavior or macroeconomic factors.
-Use a combination of models or overlays to mitigate reliance on a single set of assumptions.
+Logistic regression models the relationship between a binary dependent variable 
+𝑌
+Y (e.g., success/failure) and one or more independent variables 
+𝑋
+1
+,
+𝑋
+2
+,
+.
+.
+.
+,
+𝑋
+𝑘
+X 
+1
+​
+ ,X 
+2
+​
+ ,...,X 
+k
+​
+ . The model estimates the probability 
+𝑃
+(
+𝑌
+=
+1
+∣
+𝑋
+)
+P(Y=1∣X) using the logistic function:
 
 
 
 
-Assumption of Stability in Consumer Behavior and Economic Conditions:
-The model assumes that future consumer behavior and economic factors will be similar to historical patterns observed during model development. Significant changes in these factors may reduce the model's accuracy and reliability.
 
-Associated Model Risks
-Model Performance Degradation: If consumer behavior or economic conditions deviate significantly from the past, the model may produce inaccurate or unreliable results.
-Strategic Misalignment: Institutions relying on the model could make suboptimal decisions based on outdated assumptions.
-Model Risk Mitigants
-Regularly revalidate and recalibrate the model to ensure its assumptions and parameters remain aligned with current consumer behavior and economic conditions.
-Incorporate forward-looking indicators or stress-testing scenarios to anticipate potential changes in behavior or macroeconomic factors.
-Use a combination of models or overlays to mitigate reliance on a single set of assumptions.
-
+1. Stability of Future and Past Behavior
+The model assumes that historical relationships between predictors (e.g., consumer attributes) and the outcome (charge-off) will remain stable over time.
+If consumer behavior, economic factors, or market conditions change significantly, the model may yield inaccurate predictions.
+2. Binary Dependent Variable
+Logistic regression assumes the dependent variable is binary (e.g., charge-off = 1, no charge-off = 0).
+For non-binary outcomes, alternate regression models like multinomial or ordinal logistic regression are required.
+3. Probability of Event
+The model predicts the probability of an event (e.g., charge-off) occurring based on the logistic function. This probability must lie between 0 and 1.
+The logistic function ensures a smooth S-curve relationship between predictors and the probability of the event.
+4. Model Fit
+The model assumes that the predictors adequately explain the variation in the dependent variable.
+Goodness-of-fit tests (e.g., Hosmer-Lemeshow test) and metrics like AUC-ROC are used to validate the fit.
+5. Error Term
+Logistic regression does not assume normality or homoscedasticity of residuals (unlike linear regression). However, the error terms are assumed to follow a Bernoulli distribution.
+Independence of error terms is critical (i.e., no correlation between observations).
+6. No Multicollinearity
+Predictors should not be perfectly correlated with each other.
+Perfect multicollinearity makes it impossible to estimate unique coefficients for the predictors, which can distort the model's reliability.
+7. Linearity
+Logistic regression assumes a linear relationship between the log-odds (logit) of the dependent variable and the independent variables.
+Non-linear relationships can lead to biased results unless transformed or modeled explicitly.
+8. Large Sample Size
+The method relies on a sufficiently large sample size for stable and reliable parameter estimates.
+A rule of thumb: at least 10 events (charge-offs) per predictor variable to avoid overfitting or underpowered models.
+Logistic regression uses Maximum Likelihood Estimation (MLE) to estimate the model parameters
