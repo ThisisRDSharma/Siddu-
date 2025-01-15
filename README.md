@@ -8,3 +8,4 @@ KS Statistic:
 Based on development assumptions, the KS statistic aligns with industry standards, suggesting the model effectively differentiates between goods and bads. KS measures the distance between the distributions of goods and bads captured by the score, and it is particularly relevant in risk industry decision-making.
 
 Note: The KS statistic is based on development assumptions and has not been validated with current data.
+The numbers referenced in the model document are provided here .However, the data needed to validate these numbers is not available, making it impossible to independently verify their accuracy or performance.
