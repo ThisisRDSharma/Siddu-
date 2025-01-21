@@ -1,2 +1,1 @@
-The use of a large, representative sample is material to ensure that the model can effectively identify patterns between the two values of the dependent variable. Without sufficient data, the model risks being biased or unstable, leading to unreliable predictions.
-The assumption that past vintage data can predict future risk is materially significant because it ensures the model remains relevant and accurate over time. If this assumption fails, the model’s predictions may be unreliable, leading to poor decision-making and risk management. Changes in population characteristics or external factors could disrupt the model's predictive ability, making it critical to ensure past data is reflective of future trends.
+हेमचंद्र 
