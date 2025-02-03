@@ -2,7 +2,7 @@
 [Book1.xlsx](https://github.com/user-attachments/files/18642844/Book1.xlsx)
 
 
-
+Species" in PAI (Presentation Attack Instrument) refers to the specific type or category of fake biometric presentation being used
 
 
 
