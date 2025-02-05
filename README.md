@@ -18,3 +18,5 @@ A high KS value (e.g., above 0.40) means the model is doing a great job of clear
 A low KS value (e.g., below 0.25) means the model is struggling to separate the two groups well.
 In short, KS helps you understand how effectively your model is distinguishing between different types of outcomes (good vs. bad). A higher KS is better because it means your model is doing a good job at separation.
 The model is coded in COBOL for production, leveraging its reliability and efficiency in transaction-heavy environments. 
+
+The Qualifile Advantage model is currently approved solely for assessing Demand Deposit Account (DDA) origination risk. Utilizing this model for purposes beyond DDA risk assessment requires approval through the established governance process for data usage
