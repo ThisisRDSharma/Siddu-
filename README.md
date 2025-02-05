@@ -1,24 +1,30 @@
+RAG Status	AUC Range	Action Plan	Escalation
+🟢 Green	≥ 0.80	- Standard monitoring during each cycle
+- Quarterly validation and drift tracking	No escalation
+🟠 Amber	0.70 – 0.80	- Monthly review (or each cycle)
+- Fine-tune parameters and reassess features
+- Monitor performance over consecutive cycles (e.g., 2 cycles)	Notify Risk & Model Governance if Amber persists for 2 consecutive cycles
+🔴 Red	< 0.70	- Immediate full model audit
+- Deploy backup model and retrain with fresh data
+- Perform root cause analysis	Escalate immediately to Senior Risk, Compliance & Regulatory Teams
 
-Escalation Measures by PSI (Population Stability Index) RAG Status
-RAG Status	PSI Range	Review Frequency	Actions	Escalation Level
-=�â� Green	< 0.10	Quarterly	Standard monitoring, track for data drift	No escalation
-=�à� Amber	0.10 – 0.20	Monthly	Investigate data drift, assess feature shifts, retrain if needed	Notify Risk & Model Governance if persists >2 cycles
-=�4� Red	> 0.20	Bi-Weekly	Immediate root cause analysis, retrain model, assess business impact	Escalate to Senior Risk, Compliance & Regulatory
+RAG Status	KS Range	Action Plan	Escalation
+🟢 Green	≥ 0.40	- Standard monitoring and quarterly validation
+- Ongoing tracking for any drift	No escalation
+🟠 Amber	0.25 – 0.40	- Monthly review (or each cycle)
+- Reassess feature effectiveness and adjust decision thresholds
+- Monitor performance over consecutive cycles	Notify Risk & Model Governance if Amber persists for 2 consecutive cycles
+🔴 Red	< 0.25	- Immediate full audit and root cause analysis
+- Retrain model with updated data
+- Consider temporary model override	Escalate immediately to Senior Risk, Compliance & Regulatory Teams
 
 
-Escalation Measures by RAG Status
-RAG Status	Review Frequency	Actions	Escalation Level
-=�â� Green (AUC ≥ 0.80, KS ≥ 0.40)	Quarterly	Standard monitoring, track for data drift	No escalation
-=�à� Amber (AUC 0.70–0.80, KS 0.25–0.40)	Monthly	Fine-tune model, check data quality, retrain if needed	Notify Risk & Model Governance if persists >2 cycles
-=�4� Red (AUC < 0.70, KS < 0.25)	Bi-Weekly	Immediate audit, temporary override, deploy backup model, retrain	Escalate to Senior Risk, Compliance & Regulatory
-
-
-ܽ�翢� Green (AUC ≥ 0.80)	Standard quarterly validation, monitor for data drift	No escalation
-༽�࿠� Amber (AUC 0.70 – 0.80)	Monthly review, check for model degradation, fine-tune parameters, reassess features	Notify Risk & Model Governance if persists for 2+ cycles
-༽�༴� Red (AUC < 0.70)	Immediate model audit, deploy backup model, retrain with fresh data	Escalate to Senior Risk, Compliance & Regulatory Teams
-KS Action Plan:
-KS Status	Action Plan	Escalation
-༽�࿢� Green (KS ≥ 0.40)	Standard monitoring, quarterly validation, track for model drift	No escalation
-ွ�რ� Amber (KS 0.25 – 0.40)	Monthly review, reassess features, tune model thresholds, improve data quality	Notify Risk & Model Governance if persists for 2+ cycles
-༽�༴� Red (KS < 0.25)	Immediate full audit, root cause analysis, retrain model	Escalate to Senior Risk, Compliance & Regu****
-
+RAG Status	PSI Range	Action Plan	Escalation
+🟢 Green	< 0.10	- Standard monitoring during each cycle
+- Regularly track population stability	No escalation
+🟠 Amber	0.10 – 0.20	- Monthly review (or each cycle)
+- Investigate potential data drift and feature distribution shifts
+- Prepare for retraining if drift continues over cycles	Notify Risk & Model Governance if Amber persists for 2 consecutive cycles
+🔴 Red	> 0.20	- Immediate root cause analysis of data distribution changes
+- Urgent retraining of the model
+- Assess business impact of data drift	Escalate immediately to Senior Risk, Compliance & Regulatory Teams
