@@ -17,3 +17,4 @@ What It Means:
 A high KS value (e.g., above 0.40) means the model is doing a great job of clearly separating the "good" from the "bad" groups.
 A low KS value (e.g., below 0.25) means the model is struggling to separate the two groups well.
 In short, KS helps you understand how effectively your model is distinguishing between different types of outcomes (good vs. bad). A higher KS is better because it means your model is doing a good job at separation.
+The model is coded in COBOL for production, leveraging its reliability and efficiency in transaction-heavy environments. 
