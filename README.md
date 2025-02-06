@@ -26,3 +26,8 @@ Reconciliation of Final Modeling Dataset to Source Systems:
 The final modeling dataset is reconciled against source systems to ensure data accuracy and completeness.
 This process verifies that key attributes (e.g., SSN, identity alerts, and transaction history) are correctly populated and match source records, preventing data corruption or transformation errors.
 Reconciliation helps maintain the integrity of model inputs, ensuring reliable decision-making.
+
+
+In-Time Testing: The model was initially evaluated using the same 6-month dataset used for model development, and performance metrics like KS, AUC, and PSI were calculated.
+
+Out-of-Time Testing: The model was then validated on a separate 6-month period (data from a different time frame) to confirm its predictive power and stability over time.
