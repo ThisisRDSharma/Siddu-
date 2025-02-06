@@ -1,22 +1,28 @@
-PSI measures how much the distribution of scores (or key variables) has changed over time compared to a baseline period. 
- low PSI is good because it shows stability, while high PSI is a warning sign that significant changes are happening in your population.
-KS measures how well your model separates the "good" and "bad" outcomes (for example, low-risk vs. high-risk customers).
+To ensure the accuracy and integrity of the data processed by the model, QualiFile incorporates several input verification checks. These checks help prevent errors, detect fraudulent information, and improve the reliability of automated decision-making.
 
-How It Works:
-It looks at the difference between the cumulative percentages of the two groups across the range of scores.
-a high KS value is good because it shows strong separation between outcomes, while a low KS value is a warning sign that your model isn't effectively distinguishing between the groups.
+SSN Validation Check:
 
-KS (Kolmogorov-Smirnov) Statistic is a way to measure how well your model separates two groups—"good" outcomes (e.g., low-risk customers) and "bad" outcomes (e.g., high-risk customers).
+The model verifies whether the provided Social Security Number (SSN) is valid.
+If an SSN validation failure occurs, QualiFile displays a message, alerting the user to take corrective action.
+While the model can process an inquiry without an SSN, this is not recommended, as missing SSN data may limit the availability of critical consumer history, potentially impacting the decisioning process.
+Consumer Identity Theft Alert Check:
 
-How It Works:
-The KS statistic looks at the difference between how well the model predicts the "good" group and the "bad" group at each score level.
-It compares the cumulative percentage of "good" and "bad" customers as you move along the model's score range.
+If a consumer has placed an identity theft alert with ChexSystems, the model automatically returns a "Review" recommendation instead of an automated approval or decline.
+This ensures that institutions manually assess the case before proceeding, preventing fraudulent activity from influencing decisions.
+Consumer Security Freeze Check:
 
-What It Means:
+If a consumer has implemented a security freeze on their third-party consumer reports, the model returns a "Review" recommendation rather than a standard decision.
+The consumer must contact the relevant credit reporting agency to lift the freeze before the financial institution can proceed with the application.
+Driver’s License Format Verification:
 
-A high KS value (e.g., above 0.40) means the model is doing a great job of clearly separating the "good" from the "bad" groups.
-A low KS value (e.g., below 0.25) means the model is struggling to separate the two groups well.
-In short, KS helps you understand how effectively your model is distinguishing between different types of outcomes (good vs. bad). A higher KS is better because it means your model is doing a good job at separation.
-The model is coded in COBOL for production, leveraging its reliability and efficiency in transaction-heavy environments. 
+The model checks whether the driver’s license number, state ID, or military ID follows the correct alphanumeric format for all 50 states, U.S. territories, and military bases.
+This helps detect improperly entered or potentially fraudulent identification details.
+Invalid Telephone Number Check:
 
-The Qualifile Advantage model is currently approved solely for assessing Demand Deposit Account (DDA) origination risk. Utilizing this model for purposes beyond DDA risk assessment requires approval through the established governance process for data usage
+The model verifies whether the telephone number’s exchange/prefix exists within the specified area code.
+This check ensures that input phone numbers are formatted correctly and belong to a valid area code, though it does not confirm whether the number is currently active.
+Reconciliation of Final Modeling Dataset to Source Systems:
+
+The final modeling dataset is reconciled against source systems to ensure data accuracy and completeness.
+This process verifies that key attributes (e.g., SSN, identity alerts, and transaction history) are correctly populated and match source records, preventing data corruption or transformation errors.
+Reconciliation helps maintain the integrity of model inputs, ensuring reliable decision-making.
