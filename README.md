@@ -31,3 +31,13 @@ Reconciliation helps maintain the integrity of model inputs, ensuring reliable d
 In-Time Testing: The model was initially evaluated using the same 6-month dataset used for model development, and performance metrics like KS, AUC, and PSI were calculated.
 
 Out-of-Time Testing: The model was then validated on a separate 6-month period (data from a different time frame) to confirm its predictive power and stability over time.
+
+
+PSI (Population Stability Index): Calculated monthly, but no less than bi-annually.
+KS Metric: Calculated quarterly, but at least bi-annually.
+C-Statistic: Typically calculated quarterly.
+
+
+
+
+
