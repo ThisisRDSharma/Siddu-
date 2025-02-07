@@ -16,3 +16,6 @@ Protects personal information in state DMV records, including SSN
 Restricts who can access driver data like name, address, SSN, and license numbers
 Only allows access for specific purposes like law enforcement or court proceedings
 Imposes fines up to $5,000 per day for violations
+
+
+The data extraction process involves collecting inquiries from Chex Systems' DD account risk screening products. Using proprietary consumer search algorithms, the method precisely matches and filters data to create a representative sample for model development
