@@ -10,4 +10,9 @@ KS Statistics were calculated during ongoing monitoring for this model. The KS s
 
 PSI (Population Stability Index) is calculated monthly, and the data is actively monitored to detect any significant shifts in model performance.
 
+The Drivers Privacy Protection Act (DPPA) is a 1994 federal law that:
 
+Protects personal information in state DMV records, including SSN
+Restricts who can access driver data like name, address, SSN, and license numbers
+Only allows access for specific purposes like law enforcement or court proceedings
+Imposes fines up to $5,000 per day for violations
