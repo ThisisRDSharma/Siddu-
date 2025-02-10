@@ -191,3 +191,143 @@ ROC Curve: This metric assesses the model’s ability to discriminate between co
 KS Statistic: This measure quantifies the maximum difference between the cumulative distributions of risk scores for the two groups (defaulters vs. non-defaulters), providing an indication of how well the model separates these populations under stress conditions.
 Interpreting the Results:
 The stress testing process would help identify any vulnerabilities in the model by determining if the ROC and KS measures remain robust even when extreme adverse conditions are simulated. A robust model would retain its discriminatory power (as indicated by stable ROC and KS values), ensuring reliable risk ranking even under stress.
+
+
+Identify Source Systems:
+• Determine which systems (core banking, CRM, legacy databases) store the applicant’s information and risk‐related data (e.g., personal details, account inquiry history, check–writing records, account closures).
+• Verify that you have access to all required fields.
+
+Extract the Data:
+• Use extraction scripts or interfaces to pull data from these systems.
+• For real‐time processes, set up API calls or real-time data feeds; for batch processing, schedule periodic extraction jobs.
+
+Data Verification:
+• Perform sampling to compare extracted records with source data and confirm that every field (name, SSN, DOB, address, etc.) is captured correctly.
+
+Step 2. Data Transformation and Preparation
+Map Data Fields:
+• Map each extracted field to the input requirements of the QualiFile module. For example, ensure that names, dates, SSN, and address fields match the expected format (e.g., dates as YYYY-MM-DD).
+
+Data Cleansing:
+• Clean the data to remove duplicates, correct format errors, and validate critical fields (such as state codes, SSN formats).
+• Create a “clean” data file or feed that is ready for model ingestion.
+
+Load Data into the Processing System:
+• Import or feed the prepared data into the UAT or live environment where the QualiFile service is deployed.
+• Ensure that the integration layer (for example, the ChexSystems Verification block) is configured to automatically pull the prepared data.
+
+Step 3. Initiating the QualiFile Model
+User Interface/Process Trigger:
+• On your account origination screen or a designated workflow, place the ChexSystems Verification block.
+• Configure the block so that it picks up the mapped and cleansed input data automatically.
+
+Set the Validation Type:
+• In the block’s settings, select “QualiFile” as the validation type.
+• If multiple modules are available (for example, ID verification vs. QualiFile risk assessment), ensure that only the QualiFile option is active if that is the desired model.
+
+Assign Applicant Role (if needed):
+• For environments processing multiple applications concurrently, assign a unique applicant role name to distinguish each session.
+
+Step 4. Running the Model and Processing the Data
+Trigger the Model Execution:
+• Submit the prepared data via the integrated form or API call to invoke the QualiFile service.
+• The middleware (e.g., Transact Manager) will route the data to the ChexSystems QualiFile service provided by FIS.
+
+Service Call and Execution:
+• The QualiFile module uses its risk segmentation model—leveraging ChexSystems’ proprietary database (and possibly external data sources)—to assess the applicant’s risk.
+• It returns key output fields such as:
+
+executionStatus: (e.g., SUCCESS, DATA_ERROR, SYSTEM_ERROR)
+qualiFileStatus: (e.g., ACCEPT, REVIEW, DECLINE)
+Reason Codes: Specific codes indicating the factors that affected the decision.
+Log and Monitor:
+• Ensure that each service call is logged and that any errors are flagged for troubleshooting.
+• For errors (such as missing data or system faults), check that meaningful error messages are returned.
+
+Step 5. Output Interpretation and Data Extraction
+Extract the Output:
+• Once the model processes the data, extract the returned results from your integration layer.
+• The output should include the numerical risk score (if applicable), the decision status, and any associated reason codes.
+
+Interpret the Decision:
+• For an “ACCEPT” recommendation, the workflow will proceed to account opening.
+• For a “DECLINE” or “REVIEW” outcome, review the reason codes and score details so that additional review steps or an adverse action process can be initiated.
+
+Validate with Test Cases:
+• Confirm that sample inputs designed to be borderline, clearly acceptable, or clearly declined produce the expected output.
+
+Step 6. Report Generation and Distribution
+Generate Standard Reports:
+• Use your system’s reporting module (or a custom-built dashboard) to generate standard output reports. These should summarize:
+
+The number of records processed
+The distribution of decisions (ACCEPT, REVIEW, DECLINE)
+The detailed reason codes for declined cases
+Time stamps and other operational metrics
+Adverse Action Notices (AAN):
+• If the model returns a “DECLINE” outcome, the system should automatically generate an AAN.
+• The AAN must include required disclosures (if the risk score is used as a credit score) such as the numerical score, score range, key factors, date of score creation, and the name/contact of the reporting agency.
+
+Distribute Reports:
+• Route the standard reports and AANs to the designated recipients (branch managers, compliance officers, or directly to the applicants via secure channels).
+• Ensure reports are accessible through your internal portal or are delivered via email/hard copy as required.
+
+Audit and Record Retention:
+• Maintain an audit trail of all processed applications, outputs, and distributed reports for compliance and future review.
+
+Step 7. Final Review and Continuous Monitoring
+Review and Sign-Off:
+• Once all steps have been executed, perform a final review with stakeholders to confirm that the model is running as expected.
+• Obtain formal sign-off on the process and generated reports.
+
+Continuous Monitoring:
+• Set up monitoring routines to routinely check the quality of incoming data, service uptime, and accuracy of the risk assessment output.
+• Adjust thresholds or mappings as necessary if business rules or regulatory requirements change.
+
+Summary
+This step-by-step procedure guides you from the initial data extraction and preparation through running the ChexSystems QualiFile model, interpreting its output, and finally generating and distributing standard reports (including adverse action notices, if applicable). The process ensures that data flows smoothly into the model, the risk assessment is accurately computed, and the necessary reports are produced for decision-making and regulatory compliance.
+
+Citations used in this procedure include:
+
+FISGLOBAL.COM
+ (QualiFile product brochure from FIS)
+JOURNEY.TEMENOS.COM
+ (FIS ChexSystems - Temenos Journey Manager documentation)
+CUANSWERS.COM
+ (Integration flyer from CU*BASE and QualiFile)
+If you require further details on any individual step or need assistance tailoring this process to your specific environment, please let me know.
+
+
+
+
+
+
+You said:
+Don't use we , you ,  write in a formal way
+ChatGPT said:
+The ChexSystems QualiFile model is a real-time demand deposit account (DDA) origination solution that utilizes behavioral risk segmentation to assess potential account holders. It leverages the ChexSystems proprietary database, external public records, and optional credit bureau data to provide insights that help financial institutions manage risk across various channels. 
+FISGLOBAL.COM
+
+The model operates by analyzing data related to an applicant's banking history, including information on closed checking and savings accounts, check-writing history, and other relevant factors. Based on this analysis, QualiFile delivers an account opening recommendation aligned with the institution's risk strategy. This process ensures consistent account opening decisions across all channels, adhering to the institution's predefined risk tolerance.
+
+Integration of the QualiFile model into existing systems allows for automated recommendations or custom decisioning, enhancing efficiency in the account origination process. The solution is designed to be flexible, enabling seamless incorporation into various platforms and workflows.
+
+By implementing the ChexSystems QualiFile model, financial institutions can make informed decisions during the account opening process, thereby mitigating potential risks and fostering the development of profitable customer relationships.
+
+
+Sources
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
