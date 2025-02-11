@@ -319,7 +319,7 @@ Sources
 
 
 
-
+The backtesting process faces significant data access and collection limitations. Chex Systems inquiry data is restricted to 6-month historical periods with a maximum of 500 inquiries per pull. The platform lacks data export capabilities, requiring manual extraction. Each inquiry must be individually retrieved and manually cross-referenced against FIS IBS Insight to verify successful retail account openings.
 
 
 
