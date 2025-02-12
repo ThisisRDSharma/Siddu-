@@ -37,3 +37,9 @@ The systematic quarterly evaluation structure (Q3 2020 through Q2 2022) facilita
 
 
 The AUC analytical framework evaluated across different time periods illuminates model performance through diverse stress testing scenarios. The established baseline AUC represents optimal performance, while the 10% and 20% degradation thresholds effectively capture distinct levels of economic pressure within the testing framework.
+
+
+
+
+
+In the stress testing framework, model performance is evaluated over different time periods using AUC as a benchmark. The baseline AUC represents optimal model performance, while 10% and 20% degradation thresholds simulate varying levels of economic stress. These thresholds provide insight into the model’s resilience under different stress scenarios.
