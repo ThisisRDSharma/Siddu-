@@ -43,3 +43,12 @@ The AUC analytical framework evaluated across different time periods illuminates
 
 
 In the stress testing framework, model performance is evaluated over different time periods using AUC as a benchmark. The baseline AUC represents optimal model performance, while 10% and 20% degradation thresholds simulate varying levels of economic stress. These thresholds provide insight into the model’s resilience under different stress scenarios.
+
+
+
+
+
+
+The bank has established ROC-AUC of 0.5 as a critical threshold in its model monitoring framework. Models falling below 0.5 are flagged with "red" status, as they demonstrate performance equivalent to random classification. Based on the bank's historical monitoring practices, such models indicate inadequate discriminatory power, making them unsuitable for the bank's applications where reliable prediction capability is essential.
+Acceptable Performance Threshold (Green Status):
+In alignment with the bank's empirical monitoring standards, ROC-AUC above 0.6 is established as the "green" threshold indicating acceptable model performance. This benchmark, validated through the bank's historical performance tracking, demonstrates that the model achieves 20% better discrimination than random chance. The bank consistently applies this threshold in its performance monitoring framework, as it represents a proven standard for reliable predictive capability across its applications.
