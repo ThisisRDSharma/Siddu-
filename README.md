@@ -1,4 +1,3 @@
-KS (Kolmogorov-Smirnov) Thresholds:
 GREEN (35-50%):
 The 35% lower bound is established through statistical significance studies demonstrating consistent risk separation at this level. Historical portfolio performance data validates that 35% separation delivers reliable default prediction with false positive/negative rates falling below 25%. The 50% upper bound stems from mathematical and empirical analysis showing that separation beyond this point typically indicates model overfitting rather than genuine discriminatory power.
 AMBER (20-35%):
