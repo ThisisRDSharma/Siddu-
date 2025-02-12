@@ -422,3 +422,28 @@ As per the bank's historical performance monitoring, the following thresholds ar
 - **Red (PSI > 0.2):** A PSI greater than 0.2 suggests significant data drift that historically has led to noticeable performance deterioration. In such cases, the model typically requires immediate investigation and potentially recalibration or redevelopment to restore its reliability.
 
 These thresholds, grounded in industry standards and historical practices, ensure that only models demonstrating strong and stable performance are used for risk-based decision-making, while also providing clear guidance for ongoing monitoring and necessary interventions. 
+KS (Kolmogorov–Smirnov) Thresholds
+
+Green (KS > 0.4): A KS value above 0.4 indicates strong separation between the distributions of good and bad risks, demonstrating the model's effective discriminatory power. Historically, banks have considered this threshold as the "green" benchmark, ensuring reliable and informed decision-making.
+
+Amber (KS 0.25–0.4): KS values in this range suggest moderate separation between the distributions. This "caution" zone has been used historically to flag models that might require further monitoring or incremental improvement before being fully trusted in critical decision-making.
+
+Red (KS < 0.25): A KS below 0.25 suggests weak separation between the distributions, indicating that the model may not effectively distinguish between good and bad risks. Historically, such performance has been unacceptable in risk management, as it fails to reliably distinguish between risk classes.
+
+PSI (Population Stability Index) Thresholds
+
+Green (PSI < 0.1): A PSI value under 0.1 indicates that the distribution of input variables remains consistent over time, aligning with historical expectations for model stability in risk environments.
+
+Amber (PSI 0.1–0.2): Values in this range point to moderate shifts in the population distribution. This zone has been historically used as an early warning, prompting monitoring and evaluation before significant performance degradation occurs.
+
+Red (PSI > 0.2): A PSI greater than 0.2 suggests significant data drift that historically has led to noticeable performance deterioration. In such cases, the model typically requires immediate investigation and potentially recalibration or redevelopment to restore its reliability.
+
+These thresholds, grounded in industry standards and historical practices, ensure that only models demonstrating strong and stable performance are used for risk-based decision-making, while also providing clear guidance for ongoing monitoring and necessary interventions.
+
+
+Sources
+
+
+
+
+
