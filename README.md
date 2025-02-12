@@ -330,4 +330,36 @@ The backtesting process faces significant data access and collection limitations
 Search
 
 
+As per industry best practices and historical trends observed in the banking sector, the following thresholds have been established for key performance metrics in risk scorecards:
 
+### ROC (AUC) Thresholds
+- **Green (ROC > 0.6):**  
+  Industry best practices require that a scorecard significantly outperform random chance (ROC = 0.5) to be deemed reliable. Historically, banks have set the green threshold at ROC values above 0.6, as this level has consistently provided robust discrimination between good and bad risks.
+  
+- **Amber (ROC 0.5–0.6):**  
+  ROC values within this range indicate that the model shows some discriminatory power but remains marginal. This “caution” zone has been used historically to flag models that might require further monitoring or incremental improvement before being fully trusted in critical decision-making.
+  
+- **Red (ROC < 0.5):**  
+  A ROC below 0.5 suggests that the model performs worse than random guessing. Historically, such performance has been unacceptable in risk management, as it fails to reliably distinguish between risk classes.
+
+### KS (Kolmogorov–Smirnov) Thresholds
+- **Green (KS < 0.25):**  
+  Banks have long relied on a KS value below 0.25 as an indicator that the separation between the distributions of good and bad risks is stable and consistent with the model’s original calibration.
+  
+- **Amber (KS 0.25–0.4):**  
+  KS values in this range suggest moderate divergence between the distributions. This intermediate zone has been historically treated as a warning area, prompting closer review and monitoring without immediate intervention.
+  
+- **Red (KS > 0.4):**  
+  When the KS exceeds 0.4, it typically signals significant distributional shifts that undermine the model’s ability to distinguish risk effectively. This threshold has been used historically as a trigger for in-depth review, recalibration, or redevelopment.
+
+### PSI (Population Stability Index) Thresholds
+- **Green (PSI < 0.1):**  
+  A PSI value under 0.1 indicates that the distribution of input variables remains consistent over time, which aligns with historical expectations for model stability in risk environments.
+  
+- **Amber (PSI 0.1–0.2):**  
+  Values in this range point to moderate shifts in the population distribution. This zone is used as an early warning, based on historical trends, to prompt monitoring and evaluation before any significant performance degradation occurs.
+  
+- **Red (PSI > 0.2):**  
+  A PSI greater than 0.2 suggests significant data drift that historically has led to noticeable performance deterioration. In such cases, the model typically requires immediate investigation and potentially recalibration or redevelopment to restore its reliability.
+
+Together, these thresholds—grounded in industry standards and historical practices—ensure that only models demonstrating strong and stable performance are used for risk-based decision making, while also providing clear guidance for ongoing monitoring and necessary interventions.
