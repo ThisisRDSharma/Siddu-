@@ -38,3 +38,35 @@
 - Use stricter threshold if metrics show different status levels
 - KS drift may show problems before they appear in ROC-AUC
 - ROC-AUC provides better overall stability assessment
+
+
+
+
+
+
+
+Statistical backing: 20% often represents approximately 2 standard deviations in model performance variation
+At this level, the model's predictive power has significantly declined
+Industry practice often uses this as a critical threshold
+
+
+Statistical backing:
+
+
+Represents 1-2 standard deviations in typical model performance
+Based on normal distribution properties:
+
+~68% of variations fall within 1 standard deviation
+~95% fall within 2 standard deviations
+
+
+This range suggests meaningful drift that requires investigation but isn't yet critical
+
+
+
+Represents natural variation within 1 standard deviation
+In stable models, performance typically varies by 5-10% due to:
+
+Sample variation
+Seasonal effects
+Normal population drift
