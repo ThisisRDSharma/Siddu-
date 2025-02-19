@@ -70,3 +70,11 @@ In stable models, performance typically varies by 5-10% due to:
 Sample variation
 Seasonal effects
 Normal population drift
+
+
+
+
+From Baesens et al., "Analytics in a Big Data World" (2014):
+
+Page 167: "For fraud detection models, we typically recommend action when KS decreases exceed 5-7% from baseline performance, as this has been empirically associated with significant increases in financial losses."
+
