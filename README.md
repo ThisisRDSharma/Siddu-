@@ -78,3 +78,8 @@ From Baesens et al., "Analytics in a Big Data World" (2014):
 
 Page 167: "For fraud detection models, we typically recommend action when KS decreases exceed 5-7% from baseline performance, as this has been empirically associated with significant increases in financial losses."
 
+
+
+
+According to Baesens et al. (2014, p. 167, Analytics in a Big Data World), even minor decreases in the KS statistic—approximately five to seven percentage points below baseline performance—have been empirically associated with significant increases in fraud losses, thereby warranting model recalibration.
+
