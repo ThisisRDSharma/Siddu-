@@ -92,3 +92,7 @@ Evidence for these findings is discussed in Chernobai et al.’s work on fraud d
 Thus, according to Chernobai et al., one should expect a noticeable degradation—roughly 5–10 percentage points—in AUC‐ROC for minor drift conditions in fraud detection settings. (For precise numerical values and additional context, please refer to the experimental sections and tables in Chernobai et al.’s paper.) 
 
 *Note:* If you need the exact numbers and detailed evidence, I recommend consulting Chernobai et al.’s published paper directly, which provides a thorough experimental evaluation of AUC‐ROC behavior under different drift severities.
+
+
+
+These thresholds, ROC, and Gini are referenced from Bart Baesens' Analytics in a Big Data World: The Essential Guide to Data Science
