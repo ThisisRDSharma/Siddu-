@@ -19,3 +19,6 @@ The data source used for data preparation is the historical customer banking tra
 
 
 First of all, this is not a model—it's a rule-based engine. The rules are developed using historical customer banking transaction data. The rule syntax includes a combination of attributes designed to identify high-risk transactions and suspicious activity. These attributes include payment amounts, payee name, brand ID, transaction type, transaction time, frequency/velocity, account creation date, email fraud scores, and other consumer details. Since the customer banking transaction data incorporates these key attributes, it is highly relevant and appropriate for developing and testing the rules that drive the fraud monitoring system
+
+
+The data used for creating rules is historical customer banking transaction data provided by the client. This data includes both confirmed fraud and genuine transactions. The FIS Analytics team runs queries on this data to perform trend analysis and isolate patterns in completed fraud cases versus genuine transactions. They then use this historical data to simulate how a new rule would have performed in the past. If a rule triggers too many false positives on this data, additional conditions are added to refine it.
