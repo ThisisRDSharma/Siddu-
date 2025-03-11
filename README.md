@@ -7,3 +7,5 @@ Extensive PEP (Politically Exposed Persons) coverage to assess risks tied to hig
 Profiled adverse media to flag entities linked to financial crimes or fraud.
 SWIFT/BIC information for due diligence on financial institutions.
 The rules are developed by the bank to automatically process list matches in a way that aligns with the bank’s list screening program and risk profile. These rules leverage input, list, and match attributes from LexisNexis Bridger Insight XG searches to test for evidence of false positives. The Intelligent Match Decisioning System (IMDS) analyzes the results and determines a False Positive Confidence Score.
+
+These details are compared with WorldCompliance™ Data—a global repository maintained by LexisNexis Risk Solutions that contains various watchlists used for sanctions screening and risk assessment. The lists available in XG 5 include:
