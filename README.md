@@ -36,3 +36,9 @@ Transactions that are genuine (not fraud)
 Organize this data so it can be easily analyzed
 
 This development data is then used to create fraud detection rules. When making a rule, analysts look at the fraud transactions to spot patterns. They test each rule against the development data to see if it catches the known fraud without flagging too many genuine transactions as suspicious. If a rule creates too many false alarms, they add more specific conditions to make it more accurate.
+
+Run specific queries on this transaction data to isolate patterns
+Conduct trend analysis on the confirmed fraud transactions to identify common characteristics
+Organize this data so it can be easily analyzed
+
+This development data is then used to create fraud detection rules. When making a rule, analysts run queries on the confirmed fraud transactions to spot trends and patterns. They test each rule against the development data to see if it catches the known fraud without flagging too many genuine transactions as suspicious. If a rule creates too many false alarms, they add more specific conditions to make it more accurate.
