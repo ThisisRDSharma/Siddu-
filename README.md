@@ -72,3 +72,12 @@ Frequency/Velocity: A sudden increase in the number of transactions or rapid suc
 Account Creation Date: New accounts might be used to perpetrate fraud, so rules can be set to scrutinize transactions from recently created accounts.
 Email Fraud Scores: Email addresses with higher risk scores—perhaps due to previous involvement in fraudulent activities—can serve as indicators of potential fraud.
 Consumer Age: Age can correlate with risk; for example, transactions from very young or unusually old consumers may trigger additional checks if they deviate from the norm.
+
+
+
+
+Assumption:
+FIS has a feedback loop where tagged fraud cases are reviewed and analyzed to improve fraud detection rules. Once a transaction is identified as fraudulent, it is labeled in the system, and these cases are systematically assessed to detect fraud patterns and weaknesses in existing rules. Based on this analysis, fraud detection rules are refined or new ones are created, ensuring continuous improvement in fraud prevention measures.
+
+Rationale:
+This assumption is important because a lack of a feedback loop would mean that fraud detection rules remain static, making them ineffective against evolving fraud techniques. By continuously updating rules based on real fraud cases, the system can adapt to new fraud patterns, reduce false positives and negatives, and enhance overall fraud prevention. This process also improves operational efficiency by minimizing manual intervention and ensuring proactive fraud mitigation.
