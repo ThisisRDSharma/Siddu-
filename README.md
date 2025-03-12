@@ -22,3 +22,17 @@ First of all, this is not a model—it's a rule-based engine. The rules are deve
 
 
 The data used for creating rules is historical customer banking transaction data provided by the client. This data includes both confirmed fraud and genuine transactions. The FIS Analytics team runs queries on this data to perform trend analysis and isolate patterns in completed fraud cases versus genuine transactions. They then use this historical data to simulate how a new rule would have performed in the past. If a rule triggers too many false positives on this data, additional conditions are added to refine it.
+
+
+The development data is a collection of past banking transactions that includes both fraud and non-fraud examples. This data is prepared through these simple steps:
+
+Collect transaction records from the bank's systems
+Separate the transactions into two groups:
+
+Transactions that customers reported as fraud
+Transactions that are genuine (not fraud)
+
+
+Organize this data so it can be easily analyzed
+
+This development data is then used to create fraud detection rules. When making a rule, analysts look at the fraud transactions to spot patterns. They test each rule against the development data to see if it catches the known fraud without flagging too many genuine transactions as suspicious. If a rule creates too many false alarms, they add more specific conditions to make it more accurate.
