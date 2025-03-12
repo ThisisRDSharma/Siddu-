@@ -59,3 +59,16 @@ Frequency/Velocity: The rate or clustering of transactions can reveal rapid, rep
 Account Creation Date: Recently created accounts may be more likely used for fraud.
 Email Fraud Scores: Risk scores assigned to email addresses based on past fraudulent activity.
 Consumer Age: Can help flag anomalies when customer age deviates from typical patterns.
+
+
+
+Explanatory variables in a rule-based fraud transaction monitoring system are the individual transaction or customer attributes that are used as criteria in rules to flag suspicious behavior. Here’s how the given attributes serve as explanatory variables:
+
+Payment Amounts: Unusually high or inconsistent amounts can signal risk. Rules may flag transactions that exceed a typical threshold, indicating potential money laundering or fraud.
+Payee Name: Comparing the payee name against known high-risk or blacklisted entities helps detect potential fraudulent transfers.
+Brand ID: Transactions associated with a specific merchant or brand that has a history of high fraud rates can be flagged for further review.
+Transaction Time: Out-of-hours transactions or unexpected timing patterns may indicate suspicious activity.
+Frequency/Velocity: A sudden increase in the number of transactions or rapid successive transactions (velocity) may be a red flag.
+Account Creation Date: New accounts might be used to perpetrate fraud, so rules can be set to scrutinize transactions from recently created accounts.
+Email Fraud Scores: Email addresses with higher risk scores—perhaps due to previous involvement in fraudulent activities—can serve as indicators of potential fraud.
+Consumer Age: Age can correlate with risk; for example, transactions from very young or unusually old consumers may trigger additional checks if they deviate from the norm.
