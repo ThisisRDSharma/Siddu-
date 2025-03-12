@@ -47,3 +47,15 @@ This development data is then used to create fraud detection rules. When making 
 
 
 For data sampling, a random sampling method was applied to evaluate the performance of the production rules. Out of a total of 1883 rules in production, a random sample of 29 rules was selected for testing. During the sampled period, the actual total alert count was 23,270, while the sample accounted for 1,464 alerts, representing approximately 6% of the total.
+
+
+Explanatory variables for fraud transaction monitoring are the attributes used to identify high-risk transactions and suspicious patterns. In our system, these variables include:
+
+Payment Amounts: Unusually high or inconsistent amounts can indicate risk.
+Payee Name: Helps verify whether the recipient is associated with known high-risk entities.
+Brand ID: Links transactions to specific merchants or service providers with historical fraud indicators.
+Transaction Time: Abnormal timing (e.g., off-hours) may signal suspicious behavior.
+Frequency/Velocity: The rate or clustering of transactions can reveal rapid, repetitive activity.
+Account Creation Date: Recently created accounts may be more likely used for fraud.
+Email Fraud Scores: Risk scores assigned to email addresses based on past fraudulent activity.
+Consumer Age: Can help flag anomalies when customer age deviates from typical patterns.
