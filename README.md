@@ -42,3 +42,8 @@ Conduct trend analysis on the confirmed fraud transactions to identify common ch
 Organize this data so it can be easily analyzed
 
 This development data is then used to create fraud detection rules. When making a rule, analysts run queries on the confirmed fraud transactions to spot trends and patterns. They test each rule against the development data to see if it catches the known fraud without flagging too many genuine transactions as suspicious. If a rule creates too many false alarms, they add more specific conditions to make it more accurate.
+
+
+
+
+For data sampling, a random sampling method was applied to evaluate the performance of the production rules. Out of a total of 1883 rules in production, a random sample of 29 rules was selected for testing. During the sampled period, the actual total alert count was 23,270, while the sample accounted for 1,464 alerts, representing approximately 6% of the total.
