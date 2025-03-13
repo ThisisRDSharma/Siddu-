@@ -125,3 +125,8 @@ Related Regulated Requirements:
 
 Compliance with financial regulations requiring continuous transaction monitoring and prompt reporting of suspicious activity.
 Adherence to AML and KYC standards mandated by banking regulatory authorities.
+
+
+
+
+In the production environment, the bank uses Zelle for digital payments, integrated within its mobile and online banking platforms. FIS, which owns both Zelle and IBM Safer Payments, manages the entire fraud detection process. When a Zelle transaction is initiated, transaction data is automatically collected from the digital banking channels. IBM Safer Payments then screens this data in real time using a rule-based fraud monitoring system. This managed solution ensures that every transaction is checked for suspicious activity before it is processed, with alerts generated if any risk is detected.
