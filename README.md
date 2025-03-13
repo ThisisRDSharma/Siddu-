@@ -81,3 +81,5 @@ FIS has a feedback loop where tagged fraud cases are reviewed and analyzed to im
 
 Rationale:
 This assumption is important because a lack of a feedback loop would mean that fraud detection rules remain static, making them ineffective against evolving fraud techniques. By continuously updating rules based on real fraud cases, the system can adapt to new fraud patterns, reduce false positives and negatives, and enhance overall fraud prevention. This process also improves operational efficiency by minimizing manual intervention and ensuring proactive fraud mitigation.
+
+The customer banking transaction data, received from the client, contains both fraud and genuine transactions. Through the data filtering process, completed fraud and genuine transactions are isolated by running queries on the transaction data. Once filtered, rules are created by querying previously reported fraud cases, ensuring that rule development is based solely on historical fraud patterns rather than the entire dataset.
