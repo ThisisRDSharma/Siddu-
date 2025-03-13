@@ -92,3 +92,6 @@ Additionally, fully automated data flows ensure data moves through the system wi
 
 
 As a product under FIS, IBM Safer Payments follows the three-year data retention policy established by FIS. This policy ensures compliance with regulatory requirements while maintaining historical transaction data for fraud detection and analysis.
+
+
+The modeling approach is a rule-based system that relies solely on manually written rules. These rules are developed by querying and analyzing previously confirmed fraud data to identify patterns indicative of fraudulent activity.
