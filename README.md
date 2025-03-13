@@ -95,3 +95,33 @@ As a product under FIS, IBM Safer Payments follows the three-year data retention
 
 
 The modeling approach is a rule-based system that relies solely on manually written rules. These rules are developed by querying and analyzing previously confirmed fraud data to identify patterns indicative of fraudulent activity.
+
+
+**Business Objectives:**  
+- Provide real-time detection of fraudulent Zelle transactions.  
+- Increase detection accuracy and reduce unnecessary alerts.
+
+**Business Background:**  
+- FIS offers a Zelle fraud monitoring service using IBM Safer Payments' rules engine.  
+- The system uses manually written rules derived from previously confirmed fraud data.
+
+**Related Regulated Requirements:**  
+- Adhere to financial regulations mandating transaction monitoring and fraud reporting.  
+- Comply with industry standards for real-time detection of suspicious transactions.
+
+
+
+
+Business Objectives:
+
+Provide real-time detection and alerting of potentially fraudulent transactions for retail digital payment products such as Zelle.
+Enhance the accuracy of fraud monitoring to support timely investigation by the bank.
+Business Background:
+
+FIS offers a premier transaction monitoring service powered by IBM Safer Payments.
+The service is designed for retail digital payment products and is implemented using a rule-based system.
+Manually written rules are developed by analyzing historical, client-confirmed fraud data, which drive the transaction monitoring and alerting process.
+Related Regulated Requirements:
+
+Compliance with financial regulations requiring continuous transaction monitoring and prompt reporting of suspicious activity.
+Adherence to AML and KYC standards mandated by banking regulatory authorities.
