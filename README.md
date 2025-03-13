@@ -88,3 +88,7 @@ The customer banking transaction data, received from the client, contains both f
 Data quality treatments have not been performed because built-in controls ensure a low-risk environment for data issues. Within the Zelle UI, predefined data field requirements prevent incorrect or incomplete transactions from being processed. Transactions that do not meet these criteria fail before reaching the Safer Payments environment.
 
 Additionally, fully automated data flows ensure data moves through the system without manual intervention. Programmed data field parameters define what type of data can be entered in each field. Data type restrictions ensure fields contain only the correct format, such as numbers in an amount field. Dedicated monitoring continuously tracks data for accuracy.
+
+
+
+As a product under FIS, IBM Safer Payments follows the three-year data retention policy established by FIS. This policy ensures compliance with regulatory requirements while maintaining historical transaction data for fraud detection and analysis.
