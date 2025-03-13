@@ -126,6 +126,18 @@ Related Regulated Requirements:
 Compliance with financial regulations requiring continuous transaction monitoring and prompt reporting of suspicious activity.
 Adherence to AML and KYC standards mandated by banking regulatory authorities.
 
+UAT testing for IBM Safer Payments is conducted as part of FIS’s comprehensive change management and SDLC procedures. When updating data feeds or applying tool enhancements (such as upgrades, patches, and maintenance), the following process is followed:
+
+Change Management & SDLC:
+FIS adheres to established change management procedures for all updates feeding into IBM Safer Payments, ensuring that tool enhancements are rigorously planned, tested, and documented.
+
+UAT Testing:
+In the UAT environment, each new rule is reviewed by a dedicated analyst for accuracy—this review confirms that the rule’s configuration is correct without altering the original logic.
+
+If a rule’s alerts exceed predefined thresholds, it is escalated to a manager for additional review and correction before moving to production.
+Production Rollout:
+After successful UAT testing, the updates are deployed to production, where ongoing monitoring ensures performance aligns with FIS’s fraud detection objectives.
+
 
 
 
