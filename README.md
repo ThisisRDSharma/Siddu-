@@ -146,3 +146,6 @@ After successful UAT testing, the updates are deployed to production, where ongo
 
 
 In the production environment, the bank uses Zelle for digital payments, integrated within its mobile and online banking platforms. FIS, which owns both Zelle and IBM Safer Payments, manages the entire fraud detection process. When a Zelle transaction is initiated, transaction data is automatically collected from the digital banking channels. IBM Safer Payments then screens this data in real time using a rule-based fraud monitoring system. This managed solution ensures that every transaction is checked for suspicious activity before it is processed, with alerts generated if any risk is detected.
+
+
+One key setting is the targeted good-to-bad ratio, which is set between 3:1 and 5:1. This ratio is used as a threshold to help minimize false positives by ensuring that for every fraudulent alert (bad), the system verifies that there are at least 3 to 5 legitimate transactions (good) under similar conditions.
