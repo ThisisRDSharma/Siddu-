@@ -149,3 +149,15 @@ In the production environment, the bank uses Zelle for digital payments, integra
 
 
 One key setting is the targeted good-to-bad ratio, which is set between 3:1 and 5:1. This ratio is used as a threshold to help minimize false positives by ensuring that for every fraudulent alert (bad), the system verifies that there are at least 3 to 5 legitimate transactions (good) under similar conditions.
+
+
+Input Data:
+
+The system receives transaction data, which includes the Zelle receiver token and the transaction amount.
+Rule Evaluation:
+
+The IBM Safer Payments rules engine processes this data using manually written rules to assess the transaction’s risk.
+Decision Making:
+
+High Risk: The transaction is declined.
+Mid Risk: The transaction is accepted but flagged for review.
