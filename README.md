@@ -179,3 +179,9 @@ Handling Suspicious Transactions
 Some cases require further investigation before a final decision can be made.
 In such cases, the Digital Payments Fraud Team (FIS) contacts the bank for additional validation.
 Extra verification measures should be in place when the bank reaches out to customers to avoid engaging with potential fraudsters.
+Response to Confirmed Fraud
+
+If fraud is confirmed, the bank should:
+Immediately suspend access to the Zelle profile.
+Notify the Digital Payments Fraud Team (FIS) about fraudulent activity and any related transactions.
+Ensure compliance with network participation requirements
