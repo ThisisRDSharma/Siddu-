@@ -161,3 +161,21 @@ Decision Making:
 
 High Risk: The transaction is declined.
 Mid Risk: The transaction is accepted but flagged for review.
+
+
+
+Purpose & Scope
+
+FIS IBM Safer Payments is used for real-time fraud transaction monitoring in the Digital Banking production environment.
+It helps identify and mitigate fraudulent transactions as part of the fraud detection program.
+Process & Review
+
+The Digital Payments Fraud Team (FIS) reviews cases flagged by FIS IBM Safer Payments.
+Cases are triggered when transactions show fraud indicators or have a history of fraud, as identified by the FIS team.
+If a transaction is not fraudulent, the case is closed.
+If fraud is confirmed, the affected account and any linked accounts are blocked.
+Handling Suspicious Transactions
+
+Some cases require further investigation before a final decision can be made.
+In such cases, the Digital Payments Fraud Team (FIS) contacts the bank for additional validation.
+Extra verification measures should be in place when the bank reaches out to customers to avoid engaging with potential fraudsters.
