@@ -185,3 +185,5 @@ If fraud is confirmed, the bank should:
 Immediately suspend access to the Zelle profile.
 Notify the Digital Payments Fraud Team (FIS) about fraudulent activity and any related transactions.
 Ensure compliance with network participation requirements
+
+This section is not applicable as the model operates on a rule-based framework. There are no parameters learned from the data since no model training is performed. The decision-making process relies entirely on predefined rules rather than statistical or machine-learning-based optimization.
