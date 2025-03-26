@@ -23,6 +23,72 @@ First of all, this is not a model—it's a rule-based engine. The rules are deve
 
 
 
+
+
+Estimation Methodology for Sanction Screening Model
+The XG sanction screening tool utilizes rule-based logic and advanced matching algorithms to screen customers against predefined watchlists. The model works through a structured approach involving entity comparison, match scoring, and false positive identification to ensure efficient and accurate screening.
+
+1. Entity Comparison and Match Detection
+XG compares input entities (customer-provided details) with screening list entities (watchlist data).
+
+If the input entity matches a list entity, it is classified as a true match.
+
+If an input entity appears similar to, but is not the same as, a list entity, it is classified as a false positive.
+
+2. Match Confidence Score Calculation
+To measure how closely an input entity resembles a list entity, XG assigns a Match Confidence Score ranging from 70 to 100.
+
+The LexisNexis Search Core calculates a match score for each data element (e.g., name, address, date of birth).
+
+For each entity, it identifies:
+
+Best Match Attribute – The attribute with the highest match score.
+
+Best Score Attribute – The highest match score assigned to any data element.
+
+A high match score suggests a strong similarity between the input and list entities.
+
+3. Identifying False Positives Using IMDS
+Since sanction screening may produce false positives, the Intelligent Management Decision Support (IMDS) module applies predefined rules to assess whether a match is genuinely suspicious or an error.
+
+IMDS calculates a False Positive Confidence Score ranging from 0 to 10.
+
+This score is compared against a confidence threshold to determine if a match should be automatically classified as a false positive.
+
+4. Intelligent Management Decision (IMD) Processing
+When an alert is generated, IMDS provides an Intelligent Management Decision (IMD), which includes:
+
+✅ False Positive Confidence Score – The probability that a match is a false positive.
+✅ Reason Codes – Explanations for why a match was classified as a false positive.
+✅ Applied Rules – The set of rules used in the evaluation.
+✅ Rule File (XML Format) – A document containing all configured rules.
+
+5. Rule-Based Evaluation for False Positives
+IMDS determines false positives based on a rule file, which consists of:
+
+Intercept: A baseline value representing the default likelihood of a false positive.
+
+Rules: Each rule contains:
+
+Condition – A test that checks if an attribute meets specific criteria.
+
+Coefficient – A weight that adjusts the false positive confidence score.
+
+Reason Code – An audit trail explanation.
+
+Each condition evaluates as True or False based on whether an entity attribute (such as name, address, or date of birth) meets a predefined threshold.
+
+6. Attributes Used in IMDS
+IMDS analyzes multiple attributes to assess potential matches. These attributes are categorized as:
+
+📌 Input Attributes – Describe the entities being screened.
+📌 List Attributes – Represent the entities stored in the watchlist database.
+📌 Match Attributes – Provide results from the LexisNexis Search Core, which calculates match scores.
+
+Entities can be associated with multiple data elements, such as names, dates of birth, addresses, ID numbers, citizenships, and phone numbers. The LexisNexis Search Core assigns match scores to each data element and selects the best match based on the highest confidence score.
+
+
+
 One key setting is the targeted good-to-bad ratio, which is set between 3:1 and 5:1. This ratio is used as a threshold to help minimize false positives by ensuring that for every fraudulent alert (bad), the system verifies that there are at least 3 to 5 legitimate transactions (good) under similar conditions.
 
 The data used for creating rules is historical customer banking transaction data provided by the client. This data includes both confirmed fraud and genuine transactions. The FIS Analytics team runs queries on this data to perform trend analysis and isolate patterns in completed fraud cases versus genuine transactions. They then use this historical data to simulate how a new rule would have performed in the past. If a rule triggers too many false positives on this data, additional conditions are added to refine it.
