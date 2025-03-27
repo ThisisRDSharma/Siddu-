@@ -353,3 +353,50 @@ A steep decline in alerts may indicate missed detections or changes in screening
 Requires immediate review to assess potential risks and ensure compliance effectiveness.
 
 This framework helps in effectively tracking segment-wise alert trends and ensuring timely risk assessment and mitigation.
+
+
+
+
+
+False Positive Ratio in Fraud Monitoring Model
+Definition:
+The False Positive Ratio in a fraud monitoring model measures the proportion of flagged alerts that turn out to be non-fraudulent upon investigation. A high false positive ratio indicates that the model is generating too many incorrect alerts, leading to unnecessary investigations and wasted resources.
+
+Formula:
+False Positive Ratio
+=
+False Positive Alerts
+Total Alerts Generated
+False Positive Ratio= 
+Total Alerts Generated
+False Positive Alerts
+​
+ 
+Interpretation:
+Higher False Positive Ratio → The model is flagging too many legitimate transactions as fraudulent, leading to excessive manual reviews.
+
+Lower False Positive Ratio → The model is effectively identifying actual fraudulent activities with minimal false alerts, improving efficiency.
+
+Thresholds for False Positive Ratio (RAG Status)
+False Positive Ratio < 20% (Green) → Highly Efficient Model
+
+The majority of flagged alerts are genuine fraud cases, indicating a well-tuned fraud detection system.
+
+Minimal wasted effort on false investigations.
+
+False Positive Ratio between 20% and 50% (Amber) → Moderate Efficiency
+
+A moderate number of false positives, meaning the model is somewhat effective but requires fine-tuning.
+
+Some resources are spent on investigating non-fraud cases, but fraud detection remains reliable.
+
+False Positive Ratio > 50% (Red) → Poor Model Performance
+
+More than half of the alerts flagged by the model are false alarms, leading to excessive manual reviews.
+
+Indicates overly strict rules or misaligned thresholds that need adjustment to improve accuracy.
+
+Results Interpretation Statement:
+"The results indicate a [stable/increasing/decreasing] false positive trend, suggesting that the fraud monitoring model [is performing optimally/requires further tuning to reduce false alerts]."
+
+Would you like any refinements based on specific fraud scenarios? 😊
