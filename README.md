@@ -293,3 +293,29 @@ The results indicate a trend in alert activity, reflecting the overall transacti
 
 The Alert-to-SAR Ratio measures the efficiency of the alerting system by comparing the total number of alerts generated to the number of Suspicious Activity Reports (SARs) filed (or confirmed issues). It helps in assessing whether the alert thresholds are appropriately set and if the monitoring system is effectively identifying true suspicious activity.
 
+
+
+
+The SAR-to-Alert Ratio measures the proportion of total alerts that result in actual Suspicious Activity Reports (SARs) or confirmed suspicious cases. This metric helps assess the effectiveness of the alerting system—whether it generates meaningful alerts or too many false positives.
+
+
+Threshold Descriptions:
+SAR-to-Alert Ratio > 20% → Highly Effective Alerting System (Green)
+
+A high proportion of alerts result in SAR filings, indicating that the system generates high-quality alerts.
+
+Suggests well-calibrated detection rules with minimal false positives.
+
+SAR-to-Alert Ratio between 5% and 20% → Moderately Effective Alerting System (Amber)
+
+A reasonable number of alerts lead to SARs, but there are still some false positives.
+
+The system captures suspicious activities but may require fine-tuning to improve precision.
+
+SAR-to-Alert Ratio < 5% → Inefficient Alerting System (Red)
+
+A very low proportion of alerts result in SAR filings, indicating a high false positive rate.
+
+The system may be generating too many unnecessary alerts, leading to wasted resources.
+
+Requires adjustments to risk thresholds, filtering rules, or detection models to improve efficiency.
