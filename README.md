@@ -290,3 +290,6 @@ The Alerts-to-Transaction Ratio for each quarter is presented in the table.
 The results indicate a trend in alert activity, reflecting the overall transaction monitoring behavior.
  
 
+
+The Alert-to-SAR Ratio measures the efficiency of the alerting system by comparing the total number of alerts generated to the number of Suspicious Activity Reports (SARs) filed (or confirmed issues). It helps in assessing whether the alert thresholds are appropriately set and if the monitoring system is effectively identifying true suspicious activity.
+
