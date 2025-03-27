@@ -268,3 +268,22 @@ This section is not applicable for SecurLock but is applicable for FICO Falcon, 
 
 Black Box Search Parameters – No Fine-Tuning
 The Bridger search options allow users to configure certain parameters beyond the list screening score, but these parameters function as black box settings. This means they can only be activated or deactivated, with no option for fine-tuning or customization beyond turning them on or off.
+
+
+
+
+The Alert to Transaction Ratio (ATR) measures the proportion of transactions that trigger an alert in a monitoring system. It helps assess the effectiveness and efficiency of the model in identifying suspicious activities.
+
+A higher ratio may indicate that the model is generating too many alerts (possibly false positives), while a lower ratio may suggest that the model is not capturing enough suspicious transactions.
+
+Formula
+Alert to Transaction Ratio
+=
+Number of Alerts
+Number of Transactions Processed
+Alert to Transaction Ratio= 
+Number of Transactions Processed
+Number of Alerts
+​
+ 
+
