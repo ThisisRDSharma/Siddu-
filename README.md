@@ -319,3 +319,37 @@ A very low proportion of alerts result in SAR filings, indicating a high false p
 The system may be generating too many unnecessary alerts, leading to wasted resources.
 
 Requires adjustments to risk thresholds, filtering rules, or detection models to improve efficiency.
+
+
+
+We have computed alerts by segments for each quarter, and the results are shown below.
+
+The results indicate a [consistent/fluctuating/increasing/decreasing] trend for the particular segment.
+
+
+
+The alerts by segment have been analyzed to identify trends over the monitoring periods. Based on the alert volumes and changes observed, the following thresholds categorize the trends:
+
+Stable Trend (Green) → No Significant Change
+
+The number of alerts within the segment has remained relatively consistent across quarters.
+
+Indicates a stable transaction pattern with no major shifts in risk exposure.
+
+Moderate Shift (Amber) → Noticeable Change in Alerts
+
+The segment shows a gradual increase or decrease in alerts over time.
+
+May indicate evolving transaction behaviors, requiring ongoing monitoring.
+
+Further analysis may be needed to determine if the shift is due to business changes or risk factors.
+
+Significant Spike or Drop (Red) → High-Risk Indicator
+
+A sharp increase in alerts suggests a potential rise in suspicious activities, requiring further investigation.
+
+A steep decline in alerts may indicate missed detections or changes in screening thresholds.
+
+Requires immediate review to assess potential risks and ensure compliance effectiveness.
+
+This framework helps in effectively tracking segment-wise alert trends and ensuring timely risk assessment and mitigation.
