@@ -504,6 +504,42 @@ This structured approach helps in assessing fraud detection effectiveness while 
 
 
 
+The Alerts by Segment Ratio reflects the proportion of fraud or compliance alerts within specific customer or transaction segments. A lower ratio is preferable, as it indicates that screening measures are effectively distinguishing between legitimate and suspicious activity without generating excessive alerts.
+
+Formula:
+Alerts by Segment Ratio
+=
+Total Alerts in a Segment
+Total Transactions in that Segment
+Alerts by Segment Ratio= 
+Total Transactions in that Segment
+Total Alerts in a Segment
+​
+ 
+Thresholds (RAG Status):
+🟢 Green (< 5%) – Well-Controlled Segment
+A low alert-to-transaction ratio suggests that risks in this segment are well managed, with minimal disruption to legitimate transactions. The screening model is effectively calibrated.
+
+🟠 Amber (5% - 15%) – Emerging Risk Segment
+A moderate alert rate indicates potential concerns, warranting closer observation. Refinements to screening parameters may be needed to maintain a balance between detection accuracy and operational efficiency.
+
+🔴 Red (> 15%) – High-Risk Segment
+A high alert frequency suggests increased fraud or compliance risks. This segment may require enhanced monitoring, stricter controls, or fine-tuning of detection thresholds to reduce unnecessary alerts.
+
+Results Interpretation Statement:
+"The results reveal a [stable/increasing/decreasing] trend in alerts for this segment, signaling [effective screening, the need for closer oversight, or potential recalibration of detection criteria] to optimize risk management."
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
