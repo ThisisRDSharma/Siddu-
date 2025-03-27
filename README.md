@@ -285,5 +285,8 @@ Alert to Transaction Ratio=
 Number of Transactions Processed
 Number of Alerts
 ​
+The Alerts-to-Transaction Ratio for each quarter is presented in the table.
+
+The results indicate a trend in alert activity, reflecting the overall transaction monitoring behavior.
  
 
