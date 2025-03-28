@@ -600,3 +600,4 @@ The results indicate that the Alert-to-Transaction Ratio has remained stable acr
 
 We use the rolling average as it smooths short-term fluctuations, captures trends over time, and reduces the impact of temporary spikes or anomalies. S
 
+The analysis indicates that the false positive rate is within the expected range. The absolute percentage differences across Q1, Q2, Q3, and Q4 remain within the green threshold (i.e., within 10% of the rolling average), demonstrating consistent model behavior and effective control over false positives.
