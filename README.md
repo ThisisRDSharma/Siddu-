@@ -580,3 +580,8 @@ Since any absolute percentage difference beyond 20% is considered suspicious, th
 
 
 The absolute percentage difference for FPR is 1.15% for Q3 and 6.2% for Q4, both classified as Green, as they fall within the 10% threshold. This indicates that the FPR for Q3 and Q4 aligns with the previous two rolling quarters, suggesting model stability with no significant deviations warranting concern.
+
+
+
+
+Alert by Segments monitors shifts in the number of alerts across different population groups, providing insight into changes in alert patterns. A high drift may indicate that the model is generating excessive alerts, potentially increasing false positives, whereas a low drift may suggest the model is missing suspicious transactions. Continuous monitoring helps ensure balanced detection and model effectiveness.
