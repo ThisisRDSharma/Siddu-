@@ -595,3 +595,8 @@ Red (Critical): The value is outside ±2 standard deviations of the rolling aver
 
 
 The results indicate that the Alert-to-Transaction Ratio has remained stable across quarters, with minimal deviation from the rolling average. Since the absolute percentage difference for Q3 (2.43%) and Q4 (5.61%) falls within the Green threshold, there are no signs of significant drift in alert generation.
+
+
+
+We use the rolling average as it smooths short-term fluctuations, captures trends over time, and reduces the impact of temporary spikes or anomalies. S
+
