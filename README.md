@@ -549,7 +549,7 @@ If the absolute deviation (increase or decrease) is 10 or less, the metric remai
 We have calculated the ATR metrics for recent quarters. Additionally, we compare the current quarter’s results with the rolling average of the past two quarters to smooth short-term fluctuations, capture underlying trends, and enhance stability in performance assessment
 
 
-
+Our approach involves calculating the absolute difference between the recent quarter's ATR ratio and the six-month rolling average, then evaluating whether the quarterly values fall within the predefined thresholds to ensure a stable and consistent performance assessment.
 
 
 
