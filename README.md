@@ -591,3 +591,7 @@ Alert by Segments monitors shifts in the number of alerts across different popul
 Green (Stable): The value is within ±2 standard deviations of the rolling average of the previous two quarters, indicating no significant drift.
 
 Red (Critical): The value is outside ±2 standard deviations of the rolling average of the previous two quarters, signaling a potential shift in alert patterns that requires further investigation.
+
+
+
+The results indicate that the Alert-to-Transaction Ratio has remained stable across quarters, with minimal deviation from the rolling average. Since the absolute percentage difference for Q3 (2.43%) and Q4 (5.61%) falls within the Green threshold, there are no signs of significant drift in alert generation.
