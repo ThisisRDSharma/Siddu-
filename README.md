@@ -552,7 +552,20 @@ We have calculated the ATR metrics for recent quarters. Additionally, we compare
 Our approach involves calculating the absolute difference between the recent quarter's ATR ratio and the six-month rolling average, then evaluating whether the quarterly values fall within the predefined thresholds to ensure a stable and consistent performance assessment.
 
 
+The False Positive Rate (FPR) measures the proportion of total alerts that were ultimately classified as "Not Suspicious." It is calculated as:
 
+False Positive Rate
+=
+Alerts Classified as "Not Suspicious"
+Total Alerts
+False Positive Rate= 
+Total Alerts
+Alerts Classified as "Not Suspicious"
+​
+ 
+A high FPR indicates that a significant number of alerts are being incorrectly flagged as suspicious, leading to operational inefficiencies, increased manual review workload, and unnecessary investigations.
+
+However, a low FPR may suggest that the system is too restrictive, potentially missing legitimate suspicious activity and increasing the risk of undetected fraud or compliance violations.
 
 
 
