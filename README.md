@@ -585,3 +585,9 @@ The absolute percentage difference for FPR is 1.15% for Q3 and 6.2% for Q4, both
 
 
 Alert by Segments monitors shifts in the number of alerts across different population groups, providing insight into changes in alert patterns. A high drift may indicate that the model is generating excessive alerts, potentially increasing false positives, whereas a low drift may suggest the model is missing suspicious transactions. Continuous monitoring helps ensure balanced detection and model effectiveness.
+
+
+
+Green (Stable): The value is within ±2 standard deviations of the rolling average of the previous two quarters, indicating no significant drift.
+
+Red (Critical): The value is outside ±2 standard deviations of the rolling average of the previous two quarters, signaling a potential shift in alert patterns that requires further investigation.
