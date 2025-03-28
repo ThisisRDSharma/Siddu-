@@ -22,6 +22,13 @@ First of all, this is not a model—it's a rule-based engine. The rules are deve
 
 
 
+If the absolute deviation (increase or decrease) is 10 or less, the metric remains within the acceptable range and is classified as Green (No Action Required)."
+
+2️⃣ Yellow: "If the absolute deviation (increase or decrease) is greater than 10 but not exceeding 20, the metric is classified as Yellow (Caution Zone), indicating a moderate deviation that may require monitoring."
+
+3️⃣ Red: "If the absolute deviation (increase or decrease) is greater than 20, the metric is classified as Red (Critical), requiring immediate investigation and corrective action.
+
+
 
 
 
@@ -533,6 +540,13 @@ Results Interpretation Statement:
 
 
 
+If the absolute deviation (increase or decrease) is 10 or less, the metric remains within the acceptable range and is classified as Green (No Action Required)."
+
+2️⃣ Yellow: "If the absolute deviation (increase or decrease) is greater than 10 but not exceeding 20, the metric is classified as Yellow (Caution Zone), indicating a moderate deviation that may require monitoring."
+
+3️⃣ Red: "If the absolute deviation (increase or decrease) is greater than 20, the metric is classified as Red (Critical), requiring immediate investigation and corrective action.
+
+We have calculated the ATR metrics for recent quarters. Additionally, we compare the current quarter’s results with the rolling average of the past two quarters to smooth short-term fluctuations, capture underlying trends, and enhance stability in performance assessment
 
 
 
