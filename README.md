@@ -571,3 +571,10 @@ However, a low FPR may suggest that the system is too restrictive, potentially m
 
 
 
+The Q4 SAR-to-Alert Ratio is 5.22%, compared to the rolling average of the previous two quarters at 2.69%, resulting in an absolute percentage difference of 94.10%, which exceeds the 20% threshold and raises concerns about the model’s reliability.
+
+Similarly, in Q4, the SAR-to-Alert Ratio is 1.45%, whereas the rolling average of the previous two quarters is 3.73%, leading to an absolute percentage difference of 61.13%, which exceeds the 20% threshold. In this case, the ratio is decreasing, which also indicates potential model instability.
+
+Since any absolute percentage difference beyond 20% is considered suspicious, these deviations suggest possible model inconsistencies, changes in alerting patterns, or shifts in underlying risk trends, warranting a thorough investigation.
+
+
