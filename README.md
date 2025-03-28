@@ -578,3 +578,5 @@ Similarly, in Q4, the SAR-to-Alert Ratio is 1.45%, whereas the rolling average o
 Since any absolute percentage difference beyond 20% is considered suspicious, these deviations suggest possible model inconsistencies, changes in alerting patterns, or shifts in underlying risk trends, warranting a thorough investigation.
 
 
+
+The absolute percentage difference for FPR is 1.15% for Q3 and 6.2% for Q4, both classified as Green, as they fall within the 10% threshold. This indicates that the FPR for Q3 and Q4 aligns with the previous two rolling quarters, suggesting model stability with no significant deviations warranting concern.
