@@ -634,3 +634,36 @@ The bank is currently using a Phase 1 implementation of the Actimize model, whic
 
 
 Based on the quarterly analysis for Q1, Q2, Q3, and Q4, the SAR to Total Alerts ratio is within the acceptable threshold (within 5%) for Q1, Q2, and Q4, with these quarters flagged in green. However, Q3 exceeds the 5% threshold and is flagged in yellow. This indicates that, for Q3, the proportion of suspicious activity reports relative to total alerts is higher than anticipated. 
+
+
+
+Q1 Analysis of Alerts by Segment
+The absolute percentage difference in alert volumes across different segments has been categorized into green (≤10%), yellow (10%-20%), and red (>20%) zones based on predefined thresholds.
+
+Segments in the Green Zone (≤10%) – Changes in Alerts Within Expected Range
+The following segments exhibit changes in alert volumes that remain within the expected range, indicating stability:
+
+Low-Risk High Net Worth (including Digital Banking)
+
+Medium-Risk
+
+Organizational – High
+
+Organizational – Low
+
+For these segments, no immediate concerns arise as the alert levels are consistent with expectations.
+
+Segments in the Yellow Zone (10%-20%) – Noticeable Change in Alerts
+The absolute percentage difference for the following segments falls within the yellow zone, indicating a noticeable change in alert volumes:
+
+High-Risk
+
+Low-Risk Low Net Worth – Digital Banking
+
+These segments should be monitored to assess whether the trend continues and to identify potential contributing factors.
+
+Segments in the Red Zone (>20%) – Significant Change in Alerts
+Only the Low-Risk Low Net Worth segment falls within the red zone, reflecting a significant change in alert volumes. This segment requires further investigation to determine underlying causes and assess potential risks.
+
+Conclusion
+While most segments remain within the expected range, the low-risk low net worth segment shows a significant change and requires immediate attention. Segments in the yellow zone should also be closely monitored to track ongoing trends and potential shifts in alert patterns.
