@@ -619,3 +619,8 @@ Based on the analysis for Q1, Q2, Q3, and Q4, the absolute percentage difference
 
 
 Based on the analysis for Q1, Q2, Q3, and Q4, all quarters are flagged in green, indicating that the false positive rates remain within the acceptable range (within 10%). This outcome demonstrates that the model's handling of false positives is both stable and consistent, reflecting effective performance management without significant fluctuations.
+
+
+
+
+Based on the analysis for Q3 and Q4, both quarters are flagged in green for the total alerts to total transaction volume metric, with the absolute percentage difference within 10%. This indicates that the alert levels remain within the expected range, reflecting stable performance relative to transaction volume.
