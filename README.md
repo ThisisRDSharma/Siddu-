@@ -667,3 +667,7 @@ Only the Low-Risk Low Net Worth segment falls within the red zone, reflecting a 
 
 Conclusion
 While most segments remain within the expected range, the low-risk low net worth segment shows a significant change and requires immediate attention. Segments in the yellow zone should also be closely monitored to track ongoing trends and potential shifts in alert patterns.
+
+
+
+Overall, the analysis shows that while most segments maintain alert changes within the expected range (green zone), the high-risk segment and the low-risk low net worth digital banking channel exhibit noticeable changes (yellow zone). The traditional low-risk low net worth segment, however, presents a significant change (red zone) and warrants further investigation.
