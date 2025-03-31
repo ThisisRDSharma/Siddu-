@@ -616,3 +616,6 @@ Based on the analysis for Q1, Q2, Q3, and Q4, the absolute percentage difference
 
 
 Based on the analysis for Q1, Q2, Q3, and Q4, the absolute percentage difference between the current quarter's false positive rate and the rolling average of the previous two quarters has consistently remained within 10%, resulting in all quarters being flagged in green. This indicates that the false positive rates are within the expected range, reflecting stable and consistent performance. Such consistency suggests that the model is effectively managing false positives, and no significant fluctuations are present that would otherwise necessitate further investigation
+
+
+Based on the analysis for Q1, Q2, Q3, and Q4, all quarters are flagged in green, indicating that the false positive rates remain within the acceptable range (within 10%). This outcome demonstrates that the model's handling of false positives is both stable and consistent, reflecting effective performance management without significant fluctuations.
