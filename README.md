@@ -624,3 +624,8 @@ Based on the analysis for Q1, Q2, Q3, and Q4, all quarters are flagged in green,
 
 
 Based on the analysis for Q3 and Q4, both quarters are flagged in green for the total alerts to total transaction volume metric, with the absolute percentage difference within 10%. This indicates that the alert levels remain within the expected range, reflecting stable performance relative to transaction volume.
+
+
+
+
+The bank is currently using a Phase 1 implementation of the Actimize model, which is based on predefined rules. This approach lacks independent measures to validate the success of the detection models, thereby limiting objective performance assessment. With the transition to Phase 2, the SAM model will evolve into a machine learning framework. This advancement will facilitate a more predictive approach and enable the use of robust statistical measures—such as ROC curves, KS statistics, and other relevant metrics—to independently evaluate and validate model performance
