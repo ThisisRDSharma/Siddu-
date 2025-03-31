@@ -605,3 +605,6 @@ The analysis indicates that the false positive rate is within the expected range
 
 
 For Q3 and Q4, the total alerts to total transactions ratio is within the expected range, with absolute percentage differences remaining within the 10% threshold. This indicates that the alert levels are aligned with the transaction volumes.
+
+
+This difference is subsequently compared against established thresholds to assess the model's performance and verify that it operates within stable and consistent parameters. The rolling average is used to smooth out short-term changes, reduce volatility, and provide a strong basis for analyzing trends. This method enhances anomaly detection and supports data-driven, well-informed decision-making.
