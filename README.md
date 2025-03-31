@@ -671,3 +671,7 @@ While most segments remain within the expected range, the low-risk low net worth
 
 
 Overall, the analysis shows that while most segments maintain alert changes within the expected range (green zone), the high-risk segment and the low-risk low net worth digital banking channel exhibit noticeable changes (yellow zone). The traditional low-risk low net worth segment, however, presents a significant change (red zone) and warrants further investigation.
+
+
+
+Most segments exhibit stable alert volumes within the expected range. However, the high-risk segment and the low-risk low net worth digital banking channel show noticeable deviations, requiring ongoing monitoring to assess potential risks. The traditional low-risk low net worth segment, with a significant change in alert volumes, demands a deeper investigation to identify underlying causes and mitigate any emerging issues.
