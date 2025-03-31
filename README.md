@@ -608,3 +608,11 @@ For Q3 and Q4, the total alerts to total transactions ratio is within the expect
 
 
 This difference is subsequently compared against established thresholds to assess the model's performance and verify that it operates within stable and consistent parameters. The rolling average is used to smooth out short-term changes, reduce volatility, and provide a strong basis for analyzing trends. This method enhances anomaly detection and supports data-driven, well-informed decision-making.
+
+
+
+Based on the analysis for Q1, Q2, Q3, and Q4, the absolute percentage difference between the current quarter's ratio and the rolling average has consistently exceeded 20%, resulting in all quarters being flagged in red. This significant deviation indicates that the model's performance is not meeting expected benchmarks, suggesting potential anomalies in alert generation or shifts in underlying activity patterns. A detailed investigation is recommended to identify the root causes and implement appropriate corrective measures.
+
+
+
+Based on the analysis for Q1, Q2, Q3, and Q4, the absolute percentage difference between the current quarter's false positive rate and the rolling average of the previous two quarters has consistently remained within 10%, resulting in all quarters being flagged in green. This indicates that the false positive rates are within the expected range, reflecting stable and consistent performance. Such consistency suggests that the model is effectively managing false positives, and no significant fluctuations are present that would otherwise necessitate further investigation
