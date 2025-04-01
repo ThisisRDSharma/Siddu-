@@ -675,3 +675,9 @@ Overall, the analysis shows that while most segments maintain alert changes with
 
 
 Most segments exhibit stable alert volumes within the expected range. However, the high-risk segment and the low-risk low net worth digital banking channel show noticeable deviations, requiring ongoing monitoring to assess potential risks. The traditional low-risk low net worth segment, with a significant change in alert volumes, demands a deeper investigation to identify underlying causes and mitigate any emerging issues.
+
+
+
+All bank customers undergo sanctions screening as part of the bank's compliance framework. As of December 31, 2024, EWB's total assets amount to $75.98 billion.
+
+Since the model is applied for sanctions screening across all customer transactions, the historical transaction volume and trends would align with the bank's overall transaction activity. 
