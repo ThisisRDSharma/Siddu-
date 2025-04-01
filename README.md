@@ -681,3 +681,7 @@ Most segments exhibit stable alert volumes within the expected range. However, t
 All bank customers undergo sanctions screening as part of the bank's compliance framework. As of December 31, 2024, EWB's total assets amount to $75.98 billion.
 
 Since the model is applied for sanctions screening across all customer transactions, the historical transaction volume and trends would align with the bank's overall transaction activity. 
+
+
+
+Bridger XG allows customization of search options (Match, General, and Payment Screening), which can be activated or deactivated. It also supports configurable watchlists, where specific regulatory or internal lists can be selected for screening; alert thresholds, which define the sensitivity for flagging potential matches; and false positive thresholds, which help reduce unnecessary alerts by adjusting match confidence levels. Predefined searches enable tailored settings for different screening processes, such as payment vs. customer screening.
