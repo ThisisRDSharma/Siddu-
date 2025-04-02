@@ -685,3 +685,7 @@ Since the model is applied for sanctions screening across all customer transacti
 
 
 Bridger XG allows customization of search options (Match, General, and Payment Screening), which can be activated or deactivated. It also supports configurable watchlists, where specific regulatory or internal lists can be selected for screening; alert thresholds, which define the sensitivity for flagging potential matches; and false positive thresholds, which help reduce unnecessary alerts by adjusting match confidence levels. Predefined searches enable tailored settings for different screening processes, such as payment vs. customer screening.
+
+Existing Models
+
+Before implementing Bridger XG, the bank used Paysafe as its legacy payment screening model. The transition to Bridger was undertaken to enhance screening effectiveness, improve compliance with regulatory requirements, and reduce false positives through advanced search configurations and optimized alert thresholds.
