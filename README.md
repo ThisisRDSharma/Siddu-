@@ -689,3 +689,6 @@ Bridger XG allows customization of search options (Match, General, and Payment S
 Existing Models
 
 Before implementing Bridger XG, the bank used Paysafe as its legacy payment screening model. The transition to Bridger was undertaken to enhance screening effectiveness, improve compliance with regulatory requirements, and reduce false positives through advanced search configurations and optimized alert thresholds.
+
+Bridger XG 5 is a cloud-based compliance screening solution hosted on Microsoft Azure as a Software-as-a-Service (SaaS). The platform leverages Windows Communication Foundation (WCF) for web service APIs, utilizing Web Services Description Language (WSDL) interfaces for structured data exchanges
+
