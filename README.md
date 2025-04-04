@@ -712,4 +712,4 @@ model software
 The resulting hits from the sensitivity testing exercise were subsequently reviewed to determine which degraded names generated a match against their respective original SDN names. These alerts are classified as True Matches.
 Degraded names that generated hits only against SDN names other than their respective originals are categorized as False Positives.
 Degraded names that did not generate any hits within the system are classified as No Matches
-
+Classification of Sensitivity Testing Results
