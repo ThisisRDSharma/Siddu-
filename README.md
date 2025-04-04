@@ -713,3 +713,12 @@ The resulting hits from the sensitivity testing exercise were subsequently revie
 Degraded names that generated hits only against SDN names other than their respective originals are categorized as False Positives.
 Degraded names that did not generate any hits within the system are classified as No Matches
 Classification of Sensitivity Testing Results
+
+
+
+
+What metrics does the bank use to assess the performance of the screening system, also what is the frequency of ongoing monitoring and evaluation activities?
+Can you confirm whether the Bridger model is deployed for customer screening, payment screening, or both? 
+
+Please clarify whether the bank uses metrics such as true positives and false positives to assess the performance of the screening system.
+
