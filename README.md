@@ -73,3 +73,32 @@ A spreadsheet containing multiple customer or business records is submitted for 
 Any generated alerts appear in the alert inbox of the designated reviewer(s).
 
 These alerts follow the same review, disposition, and escalation process as those in real-time screening.
+
+
+4. Secondary (Approver) Review Process
+The designated approver receives the alert and:
+
+Reviews the screened data, the matched watchlist records, and the disposition notes provided by the initial reviewer.
+
+Based on this review, the following actions may be taken:
+
+Confirmation & Closure:
+If all matches are validated as false positives, the approver confirms the initial review, adds a note such as “verified disposition,” and closes the alert.
+
+Reassignment to Initial Reviewer:
+If discrepancies are found or the analysis is incomplete, the alert is sent back to the initial reviewer with comments for correction. Once updated, the reviewer resubmits the alert for approval.
+
+Further Clarification Needed:
+If the alert cannot be resolved at this stage, its status remains “undetermined” and it is forwarded to Approver 2 with a note such as “OFAC review requested.”
+The alert has now been reassigned to the bank compliance team for review.
+
+5. Regulatory Escalation
+After the alert is reassigned to the bank compliance team, they conduct a final assessment of the watchlist match and take one of the following actions:
+
+For a true match to Politically Exposed Persons (PEPs), adverse media, or enforcement lists, the compliance team may:
+
+Close the alert, and
+
+Mark the account as high risk in accordance with internal risk policies.
+
+For potential hits against sanctioned lists that cannot be dispositioned as false positives, the alert must be escalated to the head office OFAC group for further analysis and decision-making.
