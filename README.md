@@ -102,3 +102,7 @@ Close the alert, and
 Mark the account as high risk in accordance with internal risk policies.
 
 For potential hits against sanctioned lists that cannot be dispositioned as false positives, the alert must be escalated to the head office OFAC group for further analysis and decision-making.
+
+
+
+A False Positive Confidence Score indicates the likelihood that a match against a watchlist is not a true hit, helping to reduce unnecessary manual reviews. IMDS uses a set of rules to automatically evaluate matches by analyzing the input data, list details, and match attributes from XG searches. These rules look for evidence suggesting a false positive, and the results are used to calculate the confidence score.s
