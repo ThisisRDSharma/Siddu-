@@ -105,4 +105,8 @@ For potential hits against sanctioned lists that cannot be dispositioned as fals
 
 
 
-A False Positive Confidence Score indicates the likelihood that a match against a watchlist is not a true hit, helping to reduce unnecessary manual reviews. IMDS uses a set of rules to automatically evaluate matches by analyzing the input data, list details, and match attributes from XG searches. These rules look for evidence suggesting a false positive, and the results are used to calculate the confidence score.s
+A False Positive Confidence Score indicates the likelihood that a match against a watchlist is not a true hit, helping to reduce unnecessary manual reviews. IMDS uses a set of rules to automatically evaluate matches by analyzing the input data, list details, and match attributes from XG searches. These rules look for evidence suggesting a false positive, and the results are used to calculate the confidence score.
+
+
+A False Positive Confidence Score indicates the likelihood that a match against a watchlist is not a true hit, helping reduce manual effort on low-risk alerts. The bank defines rules within the IMDS framework to automatically evaluate matches by analyzing input data, list characteristics, and match attributes from XG searches. These rules identify patterns consistent with false positives, and the results are used to generate the confidence scores
+
