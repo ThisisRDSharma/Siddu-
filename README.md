@@ -110,3 +110,5 @@ A False Positive Confidence Score indicates the likelihood that a match against 
 
 A False Positive Confidence Score indicates the likelihood that a match against a watchlist is not a true hit, helping reduce manual effort on low-risk alerts. The bank defines rules within the IMDS framework to automatically evaluate matches by analyzing input data, list characteristics, and match attributes from XG searches. These rules identify patterns consistent with false positives, and the results are used to generate the confidence scores
 
+BSA/AML Compliance Team
+→ Uses outputs to investigate and report suspicious activity
