@@ -112,3 +112,8 @@ A False Positive Confidence Score indicates the likelihood that a match against 
 
 BSA/AML Compliance Team
 → Uses outputs to investigate and report suspicious activity
+
+
+
+
+ process of moving a validated model into a live environment, ensuring it's integrated smoothly and used for real-time decision-making by coordinating across development, IT, and business teams?s
