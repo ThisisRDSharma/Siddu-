@@ -117,3 +117,7 @@ BSA/AML Compliance Team
 
 
  process of moving a validated model into a live environment, ensuring it's integrated smoothly and used for real-time decision-making by coordinating across development, IT, and business teams?s
+
+
+
+Was SQL the only tool used for data extraction, or were there any additional tools or software involved in the process?
