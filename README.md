@@ -121,3 +121,52 @@ BSA/AML Compliance Team
 
 
 Was SQL the only tool used for data extraction, or were there any additional tools or software involved in the process?
+
+
+
+
+
+🧠 Estimation Methodology for Bridger Sanctions Screening Model
+The Bridger XG sanctions screening model is designed to detect potential matches between customer input data and watchlist entities (e.g., OFAC, UN, EU lists). It uses a combination of fuzzy matching algorithms and automated false positive handling to balance detection accuracy with operational efficiency.
+
+🔍 1. Fuzzy Matching Algorithm (XG Engine)
+Bridger XG uses a fuzzy matching algorithm to compare the input entity (e.g., a customer’s name, address) against entries in sanction and watchlists.
+
+Each potential match is assigned a match score, typically ranging from 70 to 100, which indicates the strength of the similarity between the input and the list entity.
+
+🤖 2. Automatic False Positive Handling (IMDS Integration)
+To address the issue of false positives, Bridger Insight XG integrates with IMDS (Integrated Matching Decision System):
+
+The IMDS module allows the bank to develop and implement rules that automatically identify and process false positives, reducing manual review.
+
+These rules can be customized to align with the institution's risk profile and list screening policies.
+
+🧾 3. Rule-Based Decisioning – Standard Rules
+Bridger XG comes with a set of standard rules, which the user can configure.
+
+These rules evaluate conflicting data attributes between the input and list entity, including:
+
+Date of birth (DOB) – with a user-defined tolerance (in months)
+
+ID numbers
+
+Gender
+
+Addresses
+
+Countries
+
+If only the specified standard rules return true (indicating data conflicts), the system automatically classifies the match as a false positive.
+
+⚠️ 4. Overrides for Critical Conflicts
+However, if key identity elements like:
+
+Addresses
+
+Dates of birth
+
+ID numbers
+
+Phone numbers
+
+... show a strong match (even if standard rules indicate a false positive), Bridger XG will override the standard rule logic and set the match status to automatic false positive to prevent potentially risky mismatches from being wrongly cleared.
