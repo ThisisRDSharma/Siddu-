@@ -185,3 +185,7 @@ Vendor model tuning customizes a pre-built model to work effectively in a specif
 Could you please provide a summary of the model's assumptions, including the materiality of each assumption, alternative approaches explored, and details regarding any segmentation approach if performed?
 
 Note: Based on our understanding, segmentation may not be applicable as the population data has not been segmented. Additionally, please clarify whether segmentation was performed based on entity type.
+
+ Could you please share details on how the model’s overall performance has been tested, including whether any backtesting has been done? If so, please explain what kind of checks were performed during backtesting—such as comparing model results against actual outcomes—to assess how well the model is working.
+
+Note: Tests for statistical assumptions, model fit, stability, overfitting/underfitting, and explainability are not applicable, as this is not a machine learning model and such issues do not arise.
