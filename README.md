@@ -181,3 +181,7 @@ Could you please provide a concise overview of the comprehensive data methodolog
 
 Could you please provide details on the software platform and programming language used for model development, along with the process and outcomes of any vendor model tuning or customization?
 Vendor model tuning customizes a pre-built model to work effectively in a specific environment. 
+
+Could you please provide a summary of the model's assumptions, including the materiality of each assumption, alternative approaches explored, and details regarding any segmentation approach if performed?
+
+Note: Based on our understanding, segmentation may not be applicable as the population data has not been segmented. Additionally, please clarify whether segmentation was performed based on entity type.
