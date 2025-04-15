@@ -195,3 +195,13 @@ Note: Tests for statistical assumptions, model fit, stability, overfitting/under
 Could you please provide details of the model parameters and their corresponding setting values used during model development?
 
 Question 2: Could you also share information on model access and security controls, usage restrictions, and the process followed for deploying the model into production?s
+Could you please confirm whether the model is used for customer screening, payment screening, or both, given that the same set of attributes appears to be used in each case?
+
+
+
+
+
+
+
+
+
