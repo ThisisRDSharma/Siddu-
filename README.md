@@ -189,3 +189,9 @@ Note: Based on our understanding, segmentation may not be applicable as the popu
  Could you please share details on how the model’s overall performance has been tested, including whether any backtesting has been done? If so, please explain what kind of checks were performed during backtesting—such as comparing model results against actual outcomes—to assess how well the model is working.
 
 Note: Tests for statistical assumptions, model fit, stability, overfitting/underfitting, and explainability are not applicable, as this is not a machine learning model and such issues do not arise.
+
+
+
+Could you please provide details of the model parameters and their corresponding setting values used during model development?
+
+Question 2: Could you also share information on model access and security controls, usage restrictions, and the process followed for deploying the model into production?s
