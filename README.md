@@ -176,3 +176,8 @@ Phone numbers
 
 
 Could you please provide a concise overview of the comprehensive data methodology employed, detailing the extraction process, reconciliation steps, applied transformations, underlying assumptions and limitations, quality controls and treatments, as well as the filtering and exclusion criteria?
+
+
+
+Could you please provide details on the software platform and programming language used for model development, along with the process and outcomes of any vendor model tuning or customization?
+Vendor model tuning customizes a pre-built model to work effectively in a specific environment. 
