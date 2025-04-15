@@ -170,3 +170,9 @@ ID numbers
 Phone numbers
 
 ... show a strong match (even if standard rules indicate a false positive), Bridger XG will override the standard rule logic and set the match status to automatic false positive to prevent potentially risky mismatches from being wrongly cleared.
+
+
+
+
+
+Could you please provide a concise overview of the comprehensive data methodology employed, detailing the extraction process, reconciliation steps, applied transformations, underlying assumptions and limitations, quality controls and treatments, as well as the filtering and exclusion criteria?
