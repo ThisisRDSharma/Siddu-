@@ -203,7 +203,7 @@ Standard Rules: These are predefined rules that detect specific data conflicts b
 
 Intelligent Match Decision Solution (IMDS): IMDS allows banks to develop custom rules tailored to their screening programs and risk profiles. These rules combine input, list, and match attributes to evaluate matches, going beyond basic data element conflicts. IMDS generates a false positive confidence score, improving alert accuracy and aligning with the bank’s specific compliance requirements.
 
-
+Bridger offers various search options that influence the final score for each match. The watchlists, alert thresholds, and associated search options can be configured through predefined searches, enabling customization for different screening processes, such as payment screening and customer screening. These search options include match options, general options, and payment screening options.
 
 
 
