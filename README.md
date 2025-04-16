@@ -205,7 +205,7 @@ Intelligent Match Decision Solution (IMDS): IMDS allows banks to develop custom 
 
 Bridger offers various search options that influence the final score for each match. The watchlists, alert thresholds, and associated search options can be configured through predefined searches, enabling customization for different screening processes, such as payment screening and customer screening. These search options include match options, general options, and payment screening options.
 
-
+. The match confidence score thresholds range from 50 to 100, helping to determine the strength of each match.
 
 
 
