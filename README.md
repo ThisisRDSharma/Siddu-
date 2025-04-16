@@ -197,7 +197,11 @@ Could you please provide details of the model parameters and their corresponding
 Question 2: Could you also share information on model access and security controls, usage restrictions, and the process followed for deploying the model into production?s
 Could you please confirm whether the model is used for customer screening, payment screening, or both, given that the same set of attributes appears to be used in each case?
 
+Bridger Insight® XG offers both standard and customizable rule-based approaches to enhance the accuracy of list screening and reduce false positives.​
 
+Standard Rules: These are predefined rules that detect specific data conflicts between input and list entities. When a specified conflict is detected, the match is automatically flagged as a false positive. These rules have a limited scope, primarily targeting straightforward, predefined data conflicts.​
+
+Intelligent Match Decision Solution (IMDS): IMDS allows banks to develop custom rules tailored to their screening programs and risk profiles. These rules combine input, list, and match attributes to evaluate matches, going beyond basic data element conflicts. IMDS generates a false positive confidence score, improving alert accuracy and aligning with the bank’s specific compliance requirements.
 
 
 
