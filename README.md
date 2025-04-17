@@ -325,6 +325,35 @@ Approved / Rejected by the bank (final onboarding decision)
 document_upload_quality_flag 
 
 1 if document upload was blurry or unreadable 
+5. Example with Hypothetical Numbers
+
+Suppose in 1 day:
+
+· 10,000 applicants
+
+· 9,950 successfully processed by Acuant
+
+· 100 flagged for photo tampering
+
+· 50 flagged for text tampering
+
+· 25 flagged for physical presence issues
+
+· 5 fraud cases later reported from applicants Acuant accepted
+
+Metrics would be:
+
+· Acuant Utilization Rate = 9,950/10,000 = 99.5% ✅
+
+· Photo Tampering Rate = 100/9,950 ≈ 1% ✅
+
+· Text Tampering Rate = 50/9,950 ≈ 0.5% ✅
+
+· Physical Presence Issue Rate = 25/9,950 ≈ 0.25% ✅
+
+· False Negative Proxy Rate = 5/9,950 ≈ 0.05% ✅
+
+All numbers within healthy, expected bands.
 
 fraud_case_reported_flag 
 
