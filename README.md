@@ -270,3 +270,64 @@ fraud_case_reported_flag
 1 if applicant later found to be fraud 
 
 
+Column Name 
+
+Purpose 
+
+application_id 
+
+Unique ID for each applicant 
+
+application_date 
+
+For daily/weekly volume tracking 
+
+product_type 
+
+Helps to segment monitoring if needed 
+
+acuant_api_triggered_flag 
+
+1 if Acuant was triggered for applicant 
+
+acuant_response_status 
+
+Success or Failure of Acuant response 
+
+acuant_response_time_sec 
+
+Time from request to response in seconds 
+
+acuant_final_decision 
+
+Accept / Reject decision by Acuant 
+
+photo_tampering_flag 
+
+1 if photo tampering detected 
+
+text_tampering_flag 
+
+1 if text tampering detected 
+
+physical_presence_flag 
+
+1 if physical document spoof detected 
+
+manual_review_required_flag 
+
+1 if applicant was manually reviewed post-Acuant 
+
+final_kyc_decision 
+
+Approved / Rejected by the bank (final onboarding decision) 
+
+document_upload_quality_flag 
+
+1 if document upload was blurry or unreadable 
+
+fraud_case_reported_flag 
+
+1 if applicant later found to be fraud 
+
+
