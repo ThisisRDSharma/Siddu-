@@ -358,5 +358,5 @@ All numbers within healthy, expected bands.
 fraud_case_reported_flag 
 
 1 if applicant later found to be fraud 
-
+=IF(RANK(RAND(),$A$1:$A$10000)<=50,0,1)
 
