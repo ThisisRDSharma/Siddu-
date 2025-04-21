@@ -360,3 +360,28 @@ fraud_case_reported_flag
 1 if applicant later found to be fraud 
 =IF(RANK(RAND(),$A$1:$A$10000)<=50,0,1)
 
+
+Mode of Extraction:
+Whether the development data was pulled automatically through ETL processes or manually using ad-hoc queries or exports.
+
+Source Systems:
+Systems or platforms from which the raw data was originally obtained.
+
+Reconciliation Steps:
+Methods used to verify that the extracted data aligns with source records, such as matching record counts or unique IDs.
+
+Data Transformations:
+Changes applied to raw data, including formatting, feature creation, or aggregation.
+
+Assumptions Made:
+Logic or filters applied during data preparation, such as using the latest available status or excluding certain values.
+
+Dataset Limitations:
+Known issues or gaps in the dataset that may affect model development, such as incomplete history or missing variables.
+
+Data Quality Checks:
+Validation steps to ensure accuracy, such as checking for nulls, duplicates, or inconsistencies.
+
+Data Treatments:
+Handling of data issues through techniques like missing value imputation, outlier treatment, or text standardization.
+
