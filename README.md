@@ -385,3 +385,4 @@ Validation steps to ensure accuracy, such as checking for nulls, duplicates, or 
 Data Treatments:
 Handling of data issues through techniques like missing value imputation, outlier treatment, or text standardization.
 
+Model parameters and settings are applicable only for AI/ML-based models; since this is not an AI/ML model, it is not applicable—however, please clarify if any such information is available or relevant.
