@@ -421,3 +421,8 @@ Requesting details on the internal metrics proposed by the vendor to assess the 
 
 Thanks for the explanation provided on the model output. Requesting the formal documentation that outlines the model output in detail.
 Could you please provide sample alerts for customer batch screening? This would help in understanding the types of alerts generated and the criteria used for flagging them during the screening process.
+
+
+In reference to the "Tuning Report" document, is the Paysafe model being used to screen wire transactions within the PayPlus system as part of the bank's legacy payment screening model? Could you please confirm if this integration is in place and provide any additional details on how it functions within the system?
+
+[Add the line from the Tuning Report here]
