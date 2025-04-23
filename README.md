@@ -426,3 +426,8 @@ Could you please provide sample alerts for customer batch screening? This would 
 In reference to the "Tuning Report" document, is the Paysafe model being used to screen wire transactions within the PayPlus system as part of the bank's legacy payment screening model? Could you please confirm if this integration is in place and provide any additional details on how it functions within the system?
 
 [Add the line from the Tuning Report here]
+
+The development data for LN is central to supporting the model’s objective: the accurate screening of customer and transaction information against regulatory watchlists to identify restricted or high-risk entities and ensure compliance with applicable regulations.
+This dataset includes customer PII and payment instruction data with key attributes such as entity type, full name, date of birth, age, gender, address, unique identifiers (e.g., Social Security Number), and contact information. These attributes enable precise entity identification and verification.
+The integration of mandated watchlists—such as those required under the USA PATRIOT Act, OFAC regulations, and other regulatory frameworks—enables the model to compare input data against sanctioned or restricted entities. Additionally, the inclusion of LN-administered FCC screening lists and enriched payment data further strengthens the model’s ability to evaluate all relevant elements within financial transactions.
+Together, these data components ensure that the model is aligned with its compliance-focused objective and capable of supporting both real-time and periodic screening processes effectively.
