@@ -493,3 +493,6 @@ S1098,U1098,Web,32,Hispanic/Latino,Fail_FR,2025-04-21 11:58:25
 S1099,U1099,Android,64,Asian,Fail_FR,2025-04-21 11:52:25
 
 
+
+
+iProov Genuine Presence Assurance (GPA) is integrated into the digital bank’s new-account onboarding workflow to provide a fully automated, selfie-based identity verification solution. It employs Liveness to confirm that the applicant is a live human at the moment of submission, and Face Match to compare the captured selfie against the photograph on the submitted identity document, ensuring both robust security and a seamless user experience in seconds
