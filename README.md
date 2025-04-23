@@ -390,109 +390,19 @@ Model parameters and settings are applicable only for AI/ML-based models; since 
 
 
 
-[iProov_random_data.csv](https://github.com/user-attachments/files/19835780/iProov_random_data.csv)Session_ID,User_ID,Device_Type,Age,Ethnicity,Verification_Outcome,Timestamp
-S1000,U1000,iOS,22,White/Caucasian,Pass,2025-04-21 12:04:25
-S1001,U1001,iOS,43,Asian,Pass,2025-04-21 12:13:25
-S1002,U1002,Web,37,Hispanic/Latino,Fail_FR,2025-04-21 12:07:25
-S1003,U1003,Android,46,Hispanic/Latino,Pass,2025-04-21 12:14:25
-S1004,U1004,iOS,30,Hispanic/Latino,Drop_off,2025-04-21 12:09:25
-S1005,U1005,Web,72,Black/African,Pass,2025-04-21 12:14:25
-S1006,U1006,Android,53,White/Caucasian,Pass,2025-04-21 11:48:25
-S1007,U1007,Web,74,Black/African,Pass,2025-04-21 12:20:25
-S1008,U1008,iOS,25,Asian,Pass,2025-04-21 12:15:25
-S1009,U1009,Web,71,White/Caucasian,Pass,2025-04-21 12:36:25
-S1010,U1010,Web,70,White/Caucasian,Drop_off,2025-04-21 12:30:25
-S1011,U1011,Android,30,Asian,Drop_off,2025-04-21 12:10:25
-S1012,U1012,Android,68,Black/African,Pass,2025-04-21 11:57:25
-S1013,U1013,Web,67,White/Caucasian,Drop_off,2025-04-21 11:43:25
-S1014,U1014,iOS,61,White/Caucasian,Fail_FR,2025-04-21 12:01:25
-S1015,U1015,Android,33,Black/African,Drop_off,2025-04-21 12:25:25
-S1016,U1016,Web,66,Black/African,Fail_FR,2025-04-21 11:46:25
-S1017,U1017,Android,51,White/Caucasian,Pass,2025-04-21 12:20:25
-S1018,U1018,Android,72,Black/African,Pass,2025-04-21 12:19:25
-S1019,U1019,Android,59,Asian,Fail_FR,2025-04-21 12:00:25
-S1020,U1020,Android,69,Hispanic/Latino,Pass,2025-04-21 12:26:25
-S1021,U1021,iOS,38,Hispanic/Latino,Fail_FR,2025-04-21 12:26:25
-S1022,U1022,iOS,58,Black/African,Pass,2025-04-21 12:30:25
-S1023,U1023,Web,42,Hispanic/Latino,Pass,2025-04-21 12:28:25
-S1024,U1024,Web,40,Hispanic/Latino,Drop_off,2025-04-21 12:02:25
-S1025,U1025,iOS,62,Hispanic/Latino,Drop_off,2025-04-21 11:39:25
-S1026,U1026,iOS,56,Asian,Fail_FR,2025-04-21 11:48:25
-S1027,U1027,iOS,50,Asian,Fail_FR,2025-04-21 11:54:25
-S1028,U1028,iOS,51,Hispanic/Latino,Fail_FR,2025-04-21 12:32:25
-S1029,U1029,Web,35,Asian,Drop_off,2025-04-21 11:46:25
-S1030,U1030,Android,59,White/Caucasian,Pass,2025-04-21 11:56:25
-S1031,U1031,Android,18,Black/African,Fail_FR,2025-04-21 12:06:25
-S1032,U1032,Android,50,Hispanic/Latino,Pass,2025-04-21 12:01:25
-S1033,U1033,iOS,54,Hispanic/Latino,Drop_off,2025-04-21 12:36:25
-S1034,U1034,Android,68,Black/African,Fail_FR,2025-04-21 12:15:25
-S1035,U1035,Android,66,White/Caucasian,Drop_off,2025-04-21 12:34:25
-S1036,U1036,Android,50,Asian,Drop_off,2025-04-21 12:27:25
-S1037,U1037,Android,40,Black/African,Pass,2025-04-21 12:07:25
-S1038,U1038,Web,69,Black/African,Pass,2025-04-21 12:11:25
-S1039,U1039,Android,28,Black/African,Pass,2025-04-21 12:25:25
-S1040,U1040,Android,19,Asian,Drop_off,2025-04-21 12:10:25
-S1041,U1041,iOS,38,Hispanic/Latino,Drop_off,2025-04-21 12:06:25
-S1042,U1042,Android,59,Hispanic/Latino,Pass,2025-04-21 12:35:25
-S1043,U1043,Android,45,White/Caucasian,Fail_FR,2025-04-21 11:53:25
-S1044,U1044,Web,29,Hispanic/Latino,Pass,2025-04-21 12:13:25
-S1045,U1045,Web,37,Black/African,Drop_off,2025-04-21 12:15:25
-S1046,U1046,Web,70,White/Caucasian,Drop_off,2025-04-21 12:00:25
-S1047,U1047,Android,58,Asian,Drop_off,2025-04-21 11:58:25
-S1048,U1048,iOS,34,Asian,Fail_FR,2025-04-21 11:39:25
-S1049,U1049,iOS,55,Hispanic/Latino,Pass,2025-04-21 11:42:25
-S1050,U1050,Web,46,Hispanic/Latino,Pass,2025-04-21 12:30:25
-S1051,U1051,iOS,26,Asian,Drop_off,2025-04-21 11:50:25
-S1052,U1052,Android,42,Black/African,Pass,2025-04-21 12:08:25
-S1053,U1053,Web,59,Hispanic/Latino,Fail_FR,2025-04-21 12:11:25
-S1054,U1054,Web,43,Hispanic/Latino,Pass,2025-04-21 11:54:25
-S1055,U1055,iOS,22,Black/African,Fail_FR,2025-04-21 11:38:25
-S1056,U1056,Web,53,Hispanic/Latino,Drop_off,2025-04-21 12:12:25
-S1057,U1057,iOS,32,Hispanic/Latino,Pass,2025-04-21 11:55:25
-S1058,U1058,Android,24,White/Caucasian,Pass,2025-04-21 12:15:25
-S1059,U1059,iOS,65,Black/African,Drop_off,2025-04-21 12:01:25
-S1060,U1060,Android,30,White/Caucasian,Drop_off,2025-04-21 12:33:25
-S1061,U1061,iOS,69,Hispanic/Latino,Pass,2025-04-21 11:53:25
-S1062,U1062,Android,69,Asian,Drop_off,2025-04-21 12:07:25
-S1063,U1063,iOS,60,Hispanic/Latino,Fail_FR,2025-04-21 12:17:25
-S1064,U1064,iOS,26,White/Caucasian,Drop_off,2025-04-21 11:58:25
-S1065,U1065,Web,69,White/Caucasian,Drop_off,2025-04-21 11:44:25
-S1066,U1066,Android,48,Asian,Pass,2025-04-21 12:31:25
-S1067,U1067,Web,37,Hispanic/Latino,Fail_FR,2025-04-21 11:51:25
-S1068,U1068,Android,33,White/Caucasian,Drop_off,2025-04-21 12:07:25
-S1069,U1069,Android,49,Hispanic/Latino,Fail_FR,2025-04-21 12:32:25
-S1070,U1070,Android,51,White/Caucasian,Pass,2025-04-21 12:00:25
-S1071,U1071,Web,30,Black/African,Pass,2025-04-21 12:03:25
-S1072,U1072,Web,37,White/Caucasian,Pass,2025-04-21 11:53:25
-S1073,U1073,iOS,75,Asian,Drop_off,2025-04-21 11:57:25
-S1074,U1074,Web,20,Black/African,Fail_FR,2025-04-21 11:59:25
-S1075,U1075,iOS,31,Hispanic/Latino,Pass,2025-04-21 12:29:25
-S1076,U1076,Android,44,White/Caucasian,Drop_off,2025-04-21 12:28:25
-S1077,U1077,iOS,61,Asian,Drop_off,2025-04-21 12:22:25
-S1078,U1078,iOS,28,Hispanic/Latino,Pass,2025-04-21 11:39:25
-S1079,U1079,Web,25,Asian,Fail_FR,2025-04-21 11:52:25
-S1080,U1080,Android,50,Asian,Drop_off,2025-04-21 12:14:25
-S1081,U1081,Web,27,Hispanic/Latino,Fail_FR,2025-04-21 12:15:25
-S1082,U1082,Web,71,White/Caucasian,Drop_off,2025-04-21 12:14:25
-S1083,U1083,Android,60,Hispanic/Latino,Fail_FR,2025-04-21 11:58:25
-S1084,U1084,Android,65,Black/African,Drop_off,2025-04-21 11:53:25
-S1085,U1085,Android,20,Asian,Fail_FR,2025-04-21 12:05:25
-S1086,U1086,Android,62,White/Caucasian,Fail_FR,2025-04-21 11:42:25
-S1087,U1087,Web,31,Black/African,Pass,2025-04-21 11:39:25
-S1088,U1088,Android,24,Hispanic/Latino,Drop_off,2025-04-21 11:51:25
-S1089,U1089,Android,44,Black/African,Pass,2025-04-21 12:20:25
-S1090,U1090,Android,55,White/Caucasian,Pass,2025-04-21 11:39:25
-S1091,U1091,Android,19,Hispanic/Latino,Fail_FR,2025-04-21 12:22:25
-S1092,U1092,iOS,71,Black/African,Fail_FR,2025-04-21 12:28:25
-S1093,U1093,Android,54,Black/African,Pass,2025-04-21 12:30:25
-S1094,U1094,iOS,44,Asian,Fail_FR,2025-04-21 12:25:25
-S1095,U1095,iOS,35,Black/African,Fail_FR,2025-04-21 12:10:25
-S1096,U1096,Android,25,Asian,Pass,2025-04-21 11:45:25
-S1097,U1097,iOS,64,White/Caucasian,Fail_FR,2025-04-21 12:34:25
-S1098,U1098,Web,32,Hispanic/Latino,Fail_FR,2025-04-21 11:58:25
-S1099,U1099,Android,64,Asian,Fail_FR,2025-04-21 11:52:25
+Clarity on the model’s purpose, use, and existing implementation has been achieved; however, information on the unified process and data flow for Bridger XG’s transaction screening and customer screening is still needed.
+thank you for providing clarity on the data extraction and reconciliation processes. To further our understanding, could you please share additional details regarding:
 
+1. Regarding Software/Platform Used in Model Development
 
+Please confirm the software platforms and tools utilized in developing the screening models. If this information is maintained by the vendor, kindly confirm and request the necessary details from them.
 
+2. Regarding Model Assumptions, Materiality, Alternative Approaches, and Segmentation
 
-iProov Genuine Presence Assurance (GPA) is integrated into the digital bank’s new-account onboarding workflow to provide a fully automated, selfie-based identity verification solution. It employs Liveness to confirm that the applicant is a live human at the moment of submission, and Face Match to compare the captured selfie against the photograph on the submitted identity document, ensuring both robust security and a seamless user experience in seconds
+Requesting information on the model's key assumptions and their materiality, any alternative methodologies considered, and whether segmentation based on entity type was performed. If these details are managed by the vendor, please confirm and obtain the relevant information from them.
+
+Thank you for the clarity provided on the testing of the core logic. To further assess the overall performance, could you please share any internal metrics tracked by the vendor? If such metrics are maintained by the vendor, kindly request the relevant information from them.
+
+As discussed during our recent call, you will be providing customer batch screening alert samples. Additionally, could you please provide alert samples for transaction screening as well?
+Please share the bank's model risk monitoring plan, including key performance indicators (KPIs) used to track the model's effectiveness. If available, provide information on the frequency of monitoring and any established thresholds for these metrics
+We require additional details from the bank regarding model usage controls, restrictions, and production deployment processes for Bridger XG
