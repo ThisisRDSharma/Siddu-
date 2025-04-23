@@ -412,3 +412,4 @@ We require additional details from the bank regarding model usage controls, rest
  data transformations performed, reconciliation processes, and filtering/exclusion criteria when data is screened through automated means.s
 
 Thank you for the clarity on data extraction and reconciliation. Requesting further details on data transformation, reconciliation, filtering and exclusion criteria in automated screening, along with any data limitations and assumptions considered.
+Thanks for the clarity. This information provides a good understanding of the
