@@ -413,3 +413,11 @@ We require additional details from the bank regarding model usage controls, rest
 
 Thank you for the clarity on data extraction and reconciliation. Requesting further details on data transformation, reconciliation, filtering and exclusion criteria in automated screening, along with any data limitations and assumptions considered.
 Thanks for the clarity. This information provides a good understanding of the
+
+
+While basic clarity has been provided on the data extraction process, further details are needed on how EWB is performing extraction at their end, including the tools or systems used and the structure of the extracted data. In addition, a clearer understanding is required of how data transformation, reconciliation, and the application of filtering and exclusion criteria are being managed within the automated screening process. It would also be helpful to outline any data limitations and assumptions considered to ensure a complete and accurate understanding of the overall methodology.
+
+Requesting details on the internal metrics proposed by the vendor to assess the performance and effectiveness of the automated screening process. Additionally, please share what specific data these metrics are being tracked on, including any benchmarks or thresholds being used for evaluation. 
+
+Thanks for the explanation provided on the model output. Requesting the formal documentation that outlines the model output in detail.
+Could you please provide sample alerts for customer batch screening? This would help in understanding the types of alerts generated and the criteria used for flagging them during the screening process.
