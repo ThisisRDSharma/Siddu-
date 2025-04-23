@@ -406,3 +406,7 @@ Thank you for the clarity provided on the testing of the core logic. To further 
 As discussed during our recent call, you will be providing customer batch screening alert samples. Additionally, could you please provide alert samples for transaction screening as well?
 Please share the bank's model risk monitoring plan, including key performance indicators (KPIs) used to track the model's effectiveness. If available, provide information on the frequency of monitoring and any established thresholds for these metrics
 We require additional details from the bank regarding model usage controls, restrictions, and production deployment processes for Bridger XG
+
+
+
+ data transformations performed, reconciliation processes, and filtering/exclusion criteria when data is screened through automated means.s
