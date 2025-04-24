@@ -435,3 +435,9 @@ Together, these data components ensure that the model is aligned with its compli
 
 
 In the detailed onboarding request, both the iAccepted time and event processed time are provided. These timestamps reflect the collective processing duration of the three models—Acuant, Azure, and iProov—used as part of digital onboarding for ID verification. Individual timestamps for each model are not available, so the specific processing time of each model cannot be determined separately.s
+
+
+
+frameAvailable = true indicates that the iProov SDK is successfully loaded on the user's device. It means the SDK has been initialized, the camera is active, and the system is ready for biometric verification.
+
+This status confirms that the SDK is operational and processing the camera feed
