@@ -431,3 +431,7 @@ The development data for LN is central to supporting the model’s objective: th
 This dataset includes customer PII and payment instruction data with key attributes such as entity type, full name, date of birth, age, gender, address, unique identifiers (e.g., Social Security Number), and contact information. These attributes enable precise entity identification and verification.
 The integration of mandated watchlists—such as those required under the USA PATRIOT Act, OFAC regulations, and other regulatory frameworks—enables the model to compare input data against sanctioned or restricted entities. Additionally, the inclusion of LN-administered FCC screening lists and enriched payment data further strengthens the model’s ability to evaluate all relevant elements within financial transactions.
 Together, these data components ensure that the model is aligned with its compliance-focused objective and capable of supporting both real-time and periodic screening processes effectively.
+
+
+
+In the detailed onboarding request, both the iAccepted time and event processed time are provided. These timestamps reflect the collective processing duration of the three models—Acuant, Azure, and iProov—used as part of digital onboarding for ID verification. Individual timestamps for each model are not available, so the specific processing time of each model cannot be determined separately.s
