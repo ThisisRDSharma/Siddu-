@@ -444,3 +444,5 @@ This status confirms that the SDK is operational and processing the camera feed
 
 frameAvailable can be used to check the iProov load event indicator because it confirms that the SDK has initialized, the camera is active, and frame capture has started—implying the SDK is fully loaded and operational on the device.
 Authentication time can be derived by calculating the difference between eventProcessedTime and iAcceptedTime. However, this represents the total time taken by the entire identity verification flow, including Acuant, Azure, and iProov, and not the time taken by each individual component
+
+The authentication outcome, represented as 'passed' (True/False), is stored in the iProov JSON file. A value of 'True' indicates that the verification process was successful, meaning there was an exact match between the document image and the selfie, along with a successful liveness check. A value of 'False' indicates that either the images did not match or the liveness test faileds
