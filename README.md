@@ -446,3 +446,5 @@ frameAvailable can be used to check the iProov load event indicator because it c
 Authentication time can be derived by calculating the difference between eventProcessedTime and iAcceptedTime. However, this represents the total time taken by the entire identity verification flow, including Acuant, Azure, and iProov, and not the time taken by each individual component
 
 The authentication outcome, represented as 'passed' (True/False), is stored in the iProov JSON file. A value of 'True' indicates that the verification process was successful, meaning there was an exact match between the document image and the selfie, along with a successful liveness check. A value of 'False' indicates that either the images did not match or the liveness test faileds
+
+Face Match Transaction ID is considered a better match as a unique technical identifier because it is generated uniquely for each authentication attempt. Unlike a user ID or token ID, which remains the same across multiple sessions, the transaction ID allows for accurate tracking of individual attempts
