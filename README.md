@@ -448,3 +448,34 @@ Authentication time can be derived by calculating the difference between eventPr
 The authentication outcome, represented as 'passed' (True/False), is stored in the iProov JSON file. A value of 'True' indicates that the verification process was successful, meaning there was an exact match between the document image and the selfie, along with a successful liveness check. A value of 'False' indicates that either the images did not match or the liveness test faileds
 
 Face Match Transaction ID is considered a better match as a unique technical identifier because it is generated uniquely for each authentication attempt. Unlike a user ID or token ID, which remains the same across multiple sessions, the transaction ID allows for accurate tracking of individual attempts
+
+number of times a user attempts authentication after failing one or more times.t increments with each subsequent attempt until a successful authentication or a defined maximum limit is reached.
+This refers to the platform or environment where the user performs the selfie verification:
+
+
+uccess Rate by Channel
+
+Formula: Successful authentications / Total sessions per channel
+
+Use: Measure performance across platforms.
+
+Average Time to Authenticate by Channel (if time is available)
+
+Use: Gauge speed and efficiency per platform.
+
+Drop-off Rate by Channel
+
+Formula: Abandoned sessions / Total sessions per platform
+
+
+Average Retry Count
+
+Formula: Total retry attempts / Total sessions
+
+Use: Measure how many tries users usually need.
+
+First Attempt Success Rate
+
+Formula: (Sessions where retry_count = 0 and status = success) / Total sessions
+
+Use: Shows how often users get verified on the first try.
