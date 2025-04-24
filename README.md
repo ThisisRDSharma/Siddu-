@@ -488,3 +488,24 @@ Formula: Successful authentications / Total sessions per channel
 Use: Measure performance across platforms.
 Liveness Rate (%) = (Number of Successful Liveness Checks / Total Authentication Attempts) × 100
 Face Match Rate (%) = (Number of Successful Face Matches / Total Authentication Attempts) × 100
+
+
+ 1. Success Rate by Channel
+Definition: % of successful verifications per platform (Web/iOS/Android).
+Importance: Highlights platform-specific issues; helps improve user experience and performance.
+
+✅ 2. First Attempt Success Rate
+Definition: % of users who pass on the first try.
+Importance: Indicates user ease; higher rate means smoother onboarding and lower drop-offs.
+
+✅ 3. Average Retry Count
+Definition: Average number of attempts before success.
+Importance: Tracks user effort; high values suggest friction or usability problems.
+
+✅ 4. Match Rate
+Definition: % of attempts where selfie matches ID photo.
+Importance: Measures accuracy of face match; low rate can signal quality or algorithm issues.
+
+✅ 5. Liveness Rate
+Definition: % of users who pass the liveness (anti-spoof) check.
+Importance: Key for fraud prevention and regulatory compliance.s
