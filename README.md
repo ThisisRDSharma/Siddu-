@@ -479,3 +479,5 @@ First Attempt Success Rate
 Formula: (Sessions where retry_count = 0 and status = success) / Total sessions
 
 Use: Shows how often users get verified on the first try.
+
+Does a true value for frameAvailable mean that the iProov SDK has loaded successfully and camera frames are being captured, while a false value indicates that frames are not available, suggesting the SDK did not load properly?
