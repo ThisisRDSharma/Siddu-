@@ -486,3 +486,5 @@ Success Rate by Channel
 Formula: Successful authentications / Total sessions per channel
 
 Use: Measure performance across platforms.
+Liveness Rate (%) = (Number of Successful Liveness Checks / Total Authentication Attempts) × 100
+Face Match Rate (%) = (Number of Successful Face Matches / Total Authentication Attempts) × 100
