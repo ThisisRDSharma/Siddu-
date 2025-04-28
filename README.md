@@ -724,6 +724,7 @@ Fraud Count
 Total Fraud Losses ($)÷Fraud Count	Average loss per fraud event — indicates if attacks are small or massive.
 Average Transaction Size ($)	
 Total Payment Value ($)
-÷
+÷[Fraud_Metrics_Calculator_Complete.xlsx](https://github.com/user-attachments/files/19941945/Fraud_Metrics_Calculator_Complete.xlsx)
+
 Transaction Count
 Total Payment Value ($)÷Transaction Count	Business health view: frauds targeting large vs small transactions.
