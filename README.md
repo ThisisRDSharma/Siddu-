@@ -620,3 +620,110 @@ Total Alerts
 ×
 100
 Manually Reviewed Alerts÷Total Alerts×100	Indicates operational burden and automation needs.
+
+
+Metric	Formula	Business Impact
+True Positive Rate (TPR) / Fraud Detection Rate (FDR) (%)	
+TP
+÷
+(
+TP
++
+FN
+)
+×
+100
+TP÷(TP+FN)×100	How much actual fraud you are successfully detecting.
+False Positive Rate (FPR) (%)	
+FP
+÷
+(
+FP
++
+TN
+)
+×
+100
+FP÷(FP+TN)×100	How much good business you are hurting by wrongly flagging.
+Precision (Positive Predictive Value) (%)	
+TP
+÷
+(
+TP
++
+FP
+)
+×
+100
+TP÷(TP+FP)×100	How accurate your fraud alerts are. Reduces investigation waste.
+Recall (%)	Same as TPR/FDR	Same — are you catching most frauds.
+F1 Score	
+2
+×
+(
+Precision
+×
+Recall
+Precision
++
+Recall
+)
+2×( 
+Precision+Recall
+Precision×Recall
+​
+ )	Balanced view: accuracy + coverage of fraud detection.
+Alert Hit Rate (%)	
+Confirmed Fraud Alerts
+÷
+Total Alerts Generated
+×
+100
+Confirmed Fraud Alerts÷Total Alerts Generated×100	How many alerts are actually useful — indicator of alert quality.
+
+
+
+Metric	Formula	Business Impact
+Fraud Rate (bps)	
+Fraud Losses ($)
+÷
+Total Payment Value ($)
+×
+10
+,
+000
+Fraud Losses ($)÷Total Payment Value ($)×10,000	% of payments lost to fraud. High fraud rate means bigger financial leakage.
+Fraud Volume Rate (%)	
+Confirmed Fraud Count
+÷
+Total Transactions Count
+×
+100
+Confirmed Fraud Count÷Total Transactions Count×100	Shows how common fraud is among all transactions.
+Revenue Lost Due to Fraud ($)	
+Total Confirmed Fraud ($)
+−
+Recovered Fraud ($)
+Total Confirmed Fraud ($)−Recovered Fraud ($)	Actual revenue that the business loses permanently.
+Fraud Loss Prevention (FLP)	
+Total Fraud Losses
+−
+Recovered Fraud Losses
+Total Fraud Losses−Recovered Fraud Losses	Shows effectiveness of fraud systems to minimize net losses.
+Fraud Recovery Rate (%)	
+Recovered Fraud Losses
+÷
+Total Fraud Losses
+×
+100
+Recovered Fraud Losses÷Total Fraud Losses×100	Shows how effective recovery efforts are.
+Average Fraud Ticket Size ($)	
+Total Fraud Losses ($)
+÷
+Fraud Count
+Total Fraud Losses ($)÷Fraud Count	Average loss per fraud event — indicates if attacks are small or massive.
+Average Transaction Size ($)	
+Total Payment Value ($)
+÷
+Transaction Count
+Total Payment Value ($)÷Transaction Count	Business health view: frauds targeting large vs small transactions.
