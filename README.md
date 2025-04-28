@@ -509,3 +509,87 @@ Importance: Measures accuracy of face match; low rate can signal quality or algo
 ✅ 5. Liveness Rate
 Definition: % of users who pass the liveness (anti-spoof) check.
 Importance: Key for fraud prevention and regulatory compliance.s
+
+
+
+
+Fraud Loss Prevention (FLP)
+
+Formula:
+
+FLP
+=
+Total Fraud Losses
+−
+Recovered Fraud Losses
+FLP=Total Fraud Losses−Recovered Fraud Losses
+Use: Tracks the amount of fraud prevented or recovered. A high FLP suggests that the system is minimizing fraud-related losses.
+
+Customer Churn Due to Fraud
+
+Formula:
+
+Churn Rate
+=
+Customers Lost Due to Fraud
+Total Customers
+×
+100
+Churn Rate= 
+Total Customers
+Customers Lost Due to Fraud
+​
+ ×100
+Use: Tracks how fraud detection systems impact customer retention. A higher churn rate indicates a negative impact on customer loyalty.
+
+Precision and Recall
+
+Precision:
+
+Precision
+=
+True Positives
+True Positives
++
+False Positives
+Precision= 
+True Positives+False Positives
+True Positives
+​
+ 
+Recall:
+
+Recall
+=
+True Positives
+True Positives
++
+False Negatives
+Recall= 
+True Positives+False Negatives
+True Positives
+​
+ 
+Use: Precision tells you how many of the flagged fraud cases are actually fraud, while recall tells you how many fraud cases were actually detected by the system.
+
+
+Metric | Formula | Business Impact
+Fraud Rate (bps) | Fraud Losses ($)÷Total Payment Value ($)×10,000\text{Fraud Losses (\$)} \div \text{Total Payment Value (\$)} \times 10,000Fraud Losses ($)÷Total Payment Value ($)×10,000 | % of payments lost to fraud. High fraud rate means bigger financial leakage.
+Fraud Volume Rate (%) | Confirmed Fraud Count÷Total Transactions Count×100\text{Confirmed Fraud Count} \div \text{Total Transactions Count} \times 100Confirmed Fraud Count÷Total Transactions Count×100 | Shows how common fraud is among all transactions.
+Revenue Lost Due to Fraud ($) | Total Confirmed Fraud ($)−Recovered Fraud ($)\text{Total Confirmed Fraud (\$)} - \text{Recovered Fraud (\$)}Total Confirmed Fraud ($)−Recovered Fraud ($) | Actual revenue that the business loses permanently.
+Fraud Loss Prevention (FLP) | Total Fraud Losses−Recovered Fraud Losses\text{Total Fraud Losses} - \text{Recovered Fraud Losses}Total Fraud Losses−Recovered Fraud Losses | Shows effectiveness of fraud systems to minimize net losses.
+Fraud Recovery Rate (%) | Recovered Fraud Losses÷Total Fraud Losses×100\text{Recovered Fraud Losses} \div \text{Total Fraud Losses} \times 100Recovered Fraud Losses÷Total Fraud Losses×100 | Shows how effective recovery efforts are.
+Average Fraud Ticket Size ($) | Total Fraud Losses ($)÷Fraud Count\text{Total Fraud Losses (\$)} \div \text{Fraud Count}Total Fraud Losses ($)÷Fraud Count | Average loss per fraud event — indicates if attacks are small or massive.
+Average Transaction Size ($) | Total Payment Value ($)÷Transaction Count\text{Total Payment Value (\$)} \div \text{Transaction Count}Total Payment Value ($)÷Transaction Count | Business health view: frauds targeting large vs small transactions.
+Metric | Formula | Business Impact
+True Positive Rate (TPR) / Fraud Detection Rate (FDR) (%) | TP÷(TP+FN)×100\text{TP} \div (\text{TP} + \text{FN}) \times 100TP÷(TP+FN)×100 | How much actual fraud you are successfully detecting.
+False Positive Rate (FPR) (%) | FP÷(FP+TN)×100\text{FP} \div (\text{FP} + \text{TN}) \times 100FP÷(FP+TN)×100 | How much good business you are hurting by wrongly flagging.
+Precision (Positive Predictive Value) (%) | TP÷(TP+FP)×100\text{TP} \div (\text{TP} + \text{FP}) \times 100TP÷(TP+FP)×100 | How accurate your fraud alerts are. Reduces investigation waste.
+Recall (%) | Same as TPR/FDR | Same — are you catching most frauds.
+F1 Score | 2×(Precision×RecallPrecision+Recall)2 \times \left( \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} \right)2×(Precision+RecallPrecision×Recall​) | Balanced view: accuracy + coverage of fraud detection.
+Alert Hit Rate (%) | Confirmed Fraud Alerts÷Total Alerts Generated×100\text{Confirmed Fraud Alerts} \div \text{Total Alerts Generated} \times 100Confirmed Fraud Alerts÷Total Alerts Generated×100 | How many alerts are actually useful — indicator of alert quality.
+Metric | Formula | Business Impact
+Alert-to-Action Time (hours or minutes) | Average Time between Alert and Disposition\text{Average Time between Alert and Disposition}Average Time between Alert and Disposition | Speed of reaction — critical for fraud containment.
+Investigator Productivity (alerts/day) | Total Alerts Closed÷Total Investigation Hours\text{Total Alerts Closed} \div \text{Total Investigation Hours}Total Alerts Closed÷Total Investigation Hours | How many cases a fraud analyst is handling — impacts fraud cost.
+Fraud per Investigator ($) | Total Fraud Detected ($)÷Number of Investigators\text{Total Fraud Detected (\$)} \div \text{Number of Investigators}Total Fraud Detected ($)÷Number of Investigators | Individual contribution to saving business money.
+Manual Review Rate (%) | Manually Reviewed Alerts÷Total Alerts×100\text{Manually Reviewed Alerts} \div \text{Total Alerts} \times 100Manually Reviewed Alerts÷Total Alerts×100 | Indicates operational burden and automation needs.
