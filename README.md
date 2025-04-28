@@ -593,3 +593,30 @@ Alert-to-Action Time (hours or minutes) | Average Time between Alert and Di
 Investigator Productivity (alerts/day) | Total Alerts Closed÷Total Investigation Hours\text{Total Alerts Closed} \div \text{Total Investigation Hours}Total Alerts Closed÷Total Investigation Hours | How many cases a fraud analyst is handling — impacts fraud cost.
 Fraud per Investigator ($) | Total Fraud Detected ($)÷Number of Investigators\text{Total Fraud Detected (\$)} \div \text{Number of Investigators}Total Fraud Detected ($)÷Number of Investigators | Individual contribution to saving business money.
 Manual Review Rate (%) | Manually Reviewed Alerts÷Total Alerts×100\text{Manually Reviewed Alerts} \div \text{Total Alerts} \times 100Manually Reviewed Alerts÷Total Alerts×100 | Indicates operational burden and automation needs.
+
+
+
+
+
+
+Metric	Formula	Business Impact
+Alert-to-Action Time (hours or minutes)	
+Average Time between Alert and Disposition
+Average Time between Alert and Disposition	Speed of reaction — critical for fraud containment.
+Investigator Productivity (alerts/day)	
+Total Alerts Closed
+÷
+Total Investigation Hours
+Total Alerts Closed÷Total Investigation Hours	How many cases a fraud analyst is handling — impacts fraud cost.
+Fraud per Investigator ($)	
+Total Fraud Detected ($)
+÷
+Number of Investigators
+Total Fraud Detected ($)÷Number of Investigators	Individual contribution to saving business money.
+Manual Review Rate (%)	
+Manually Reviewed Alerts
+÷
+Total Alerts
+×
+100
+Manually Reviewed Alerts÷Total Alerts×100	Indicates operational burden and automation needs.
