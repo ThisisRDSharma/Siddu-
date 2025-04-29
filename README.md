@@ -728,3 +728,16 @@ Total Payment Value ($)
 
 Transaction Count
 Total Payment Value ($)÷Transaction Count	Business health view: frauds targeting large vs small transactions.
+
+
+
+Hit Rate = Number of Bad Accounts / Number of Times Fraud Rule Fired
+Explanation: Hit rate indicates the accuracy of a fraud detection rule by measuring the proportion of alerts raised by the rule that correctly identified fraudulent accounts. A higher hit rate suggests better rule performance with fewer false positives.
+
+
+
+
+
+
+
+
