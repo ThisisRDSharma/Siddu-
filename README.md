@@ -742,3 +742,4 @@ Metric thresholds have not been predefined; appropriate thresholds and correspon
 The scope of monitoring for an Azure model used in transaction screening, account onboarding, and login includes tracking model performance through metrics like precision, recall, accuracy, and false positive/negative rates. It also involves evaluating rule effectiveness by monitoring rule hit rates and identifying obsolete rules. Operational metrics such as uptime, throughput, error rates, and response times are crucial for maintaining performance.
 
 
+Rule Triggered" refers to specific conditions or predefined rules that are met during the fraud detection process, indicating that a transaction or account may be suspicious. 
