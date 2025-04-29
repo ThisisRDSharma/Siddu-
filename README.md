@@ -736,7 +736,7 @@ Explanation: Hit rate indicates the accuracy of a fraud detection rule by measur
 
 
 
-
+Metric thresholds have not been predefined; appropriate thresholds and corresponding escalation triggers will be determined based on performance analysis once sufficient data is available
 
 
 
