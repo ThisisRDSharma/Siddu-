@@ -739,5 +739,6 @@ Explanation: Hit rate indicates the accuracy of a fraud detection rule by measur
 Metric thresholds have not been predefined; appropriate thresholds and corresponding escalation triggers will be determined based on performance analysis once sufficient data is available
 
 
+The scope of monitoring for an Azure model used in transaction screening, account onboarding, and login includes tracking model performance through metrics like precision, recall, accuracy, and false positive/negative rates. It also involves evaluating rule effectiveness by monitoring rule hit rates and identifying obsolete rules. Operational metrics such as uptime, throughput, error rates, and response times are crucial for maintaining performance.
 
 
