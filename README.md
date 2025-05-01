@@ -751,3 +751,61 @@ Override Rate refers to the frequency or proportion at which manual decisions ov
 
 📘 Definition:
 Override Rate = (Number of overridden system decisions / Total number of system decisions) × 100s
+
+
+
+
+1. True Positive Rate (TPR) – Detection Effectiveness
+Definition: Proportion of actual risk-positive entities (e.g., sanctioned names, suspicious transactions) correctly flagged by the system.
+Formula: TPR = TP / (TP + FN)
+Use Case:
+
+Customer Screening: Detects actual matches to watchlists (e.g., OFAC, PEP).
+
+Transaction Screening: Flags truly suspicious/fraudulent transactions.
+
+2. False Positive Rate (FPR) – Noise Indicator
+Definition: Proportion of clean entities that were incorrectly flagged.
+Formula: FPR = FP / (FP + TN)
+Use Case:
+
+Customer Screening: Common in fuzzy matching (e.g., “Ali Khan” vs “Alikhan”).
+
+Transaction Screening: Non-risk transactions wrongly flagged as suspicious.
+
+3. True Negative Rate (TNR) – Accuracy on Clean Data
+Definition: Proportion of legitimate customers/transactions correctly left unflagged.
+Formula: TNR = TN / (TN + FP)
+Use Case: Higher TNR = less operational burden and better customer experience.
+
+4. False Negative Rate (FNR) – Missed Risks
+Definition: Proportion of actual risk-positive items the system failed to flag.
+Formula: FNR = FN / (FN + TP)
+Use Case: A critical metric — high FNR may expose the institution to regulatory or fraud losses.
+
+5. Alert-to-Transaction Ratio (or Alert Rate) – System Sensitivity
+Definition: Proportion of screened items (customers or transactions) that trigger alerts.
+Formula: Alert Rate = Total Alerts / Total Screened Items
+Use Case: Helps assess workload and tuning.
+
+Too high? Likely too many false positives.
+
+Too low? Possibly under-detecting.
+
+6. Override Rate – Human Review Dependence
+Definition: Proportion of alerts where analysts overturn the system’s recommendation (e.g., from “match” to “no match” or “deny” to “approve”).
+Formula: Override Rate = Overrides / Total Alerts Reviewed
+Use Case:
+
+Indicates rule quality and system trust.
+
+High rate suggests poor calibration or overly sensitive rules.
+
+7. Average Decision Time per Analyst – Operational Efficiency
+Definition: Time taken on average by analysts to investigate and decide on alerts.
+Formula: Avg Time = Total Handling Time / Number of Alerts Handled
+Use Case:
+
+For staffing, SLA monitoring, and productivity benchmarking.
+
+Can be split: Name screening (often longer) vs transaction alerts (usually faster).
