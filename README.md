@@ -824,3 +824,4 @@ High precision = fewer false alarms.
 
 Low precision = analysts spend time on noise.
 
+Post-facto fraud refers to a risk event that bypassed the screening system undetected but was later confirmed through investigation or external escalation.
