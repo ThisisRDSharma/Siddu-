@@ -809,3 +809,18 @@ Use Case:
 For staffing, SLA monitoring, and productivity benchmarking.
 
 Can be split: Name screening (often longer) vs transaction alerts (usually faster).
+True Positive Rate (TPR / Recall / Sensitivity)
+Definition: Proportion of actual risk-positive items correctly identified.
+Formula: TPR = TP / (TP + FN)
+Use Case: Measures detection power — critical for compliance and fraud control.
+Higher is better; low TPR = real risks are missed.
+
+2. Precision (Positive Predictive Value)
+Definition: Proportion of system-flagged items that were truly risky.
+Formula: Precision = TP / (TP + FP)
+Use Case: Indicates alert quality.
+
+High precision = fewer false alarms.
+
+Low precision = analysts spend time on noise.
+
