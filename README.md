@@ -746,3 +746,8 @@ Rule Triggered" refers to specific conditions or predefined rules that are met d
 
 [Bridger_XG_Monitoring_Metrics.xlsx](https://github.com/user-attachments/files/20001004/Bridger_XG_Monitoring_Metrics.xlsx)
 
+
+Override Rate refers to the frequency or proportion at which manual decisions override automated system decisions in a risk or decision-making process—especially in domains like fraud detection, credit underwriting, or customer authentication.
+
+📘 Definition:
+Override Rate = (Number of overridden system decisions / Total number of system decisions) × 100s
