@@ -743,3 +743,6 @@ The scope of monitoring for an Azure model used in transaction screening, accoun
 
 
 Rule Triggered" refers to specific conditions or predefined rules that are met during the fraud detection process, indicating that a transaction or account may be suspicious. 
+
+[Bridger_XG_Monitoring_Metrics.xlsx](https://github.com/user-attachments/files/20001004/Bridger_XG_Monitoring_Metrics.xlsx)
+
